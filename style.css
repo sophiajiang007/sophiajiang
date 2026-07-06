@@ -146,3 +146,18 @@ iframe {
     margin: 30px auto;
     border-radius: 2px;
 } 
+/* ---------- Album Typography ---------- */
+
+.album-title {
+    font-size: 36px;
+    font-weight: 600;
+    color: #222;
+    margin-top: 10px;
+}
+
+.album-subtitle {
+    font-size: 21px;
+    font-weight: 500;
+    color: #555;
+    margin-top: -5px;
+}
