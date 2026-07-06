@@ -132,3 +132,58 @@ body {
     text-decoration: none !important;
     font-size: 30px !important;
 }
+
+/* ---------- Album Card ---------- */
+
+.album {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    border-radius: 18px;
+    background: linear-gradient(135deg, #fff7d6, #ffe6ee);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+
+    transition: transform 0.25s ease,
+                box-shadow 0.25s ease;
+}
+
+.album:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 40px rgba(0,0,0,0.08);
+}
+
+/* ---------- Dive Right In ---------- */
+
+.album-button {
+    display: inline-block;
+    margin: 22px 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.album-button:hover {
+    color: #111;
+    transform: translateX(5px);
+}
+
+/* ---------- Spotify Button ---------- */
+
+.button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 22px;
+    background: #111;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 14px;
+    transition: all 0.2s ease;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
