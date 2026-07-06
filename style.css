@@ -86,19 +86,22 @@ iframe {
 
 .album-button {
     display: inline-block;
-    margin: 22px 0;
-    font-size: 24px;
+    margin: 24px 0;
+    padding: 10px 22px;
+    font-size: 22px;
     font-weight: 600;
     color: #155e75;
     text-decoration: none;
-    transition: all 0.2s ease;
+    border: 2px solid #155e75;
+    border-radius: 30px;
+    transition: all 0.25s ease;
 }
 
 .album-button:hover {
-    color: #0c4a6e;
-    transform: translateX(5px);
+    background: #155e75;
+    color: white;
+    transform: translateY(-3px);
 }
-
 
 /* ---------- Spotify Button ---------- */
 
