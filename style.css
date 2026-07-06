@@ -1,7 +1,4 @@
 body {
-    background: yellow !important;
-}
-body {
     font-family: "Inter", sans-serif;
     margin: 0;
     padding: 0;
@@ -90,15 +87,15 @@ iframe {
 .album-button {
     display: inline-block;
     margin: 22px 0;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
-    color: #2563eb;
+    color: #155e75;
     text-decoration: none;
     transition: all 0.2s ease;
 }
 
 .album-button:hover {
-    color: #1d4ed8;
+    color: #0c4a6e;
     transform: translateX(5px);
 }
 
