@@ -102,3 +102,21 @@ body {
             margin: 30px auto;
             border-radius: 2px;
         }
+.album-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.album-link .album {
+    transition: transform 0.25s ease,
+                box-shadow 0.25s ease;
+    cursor: pointer;
+}
+
+.album-link:hover .album {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 40px rgba(0,0,0,0.08);
+}
