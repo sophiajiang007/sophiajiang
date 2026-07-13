@@ -1,3 +1,7 @@
+/* ==========================================
+   GLOBAL STYLES
+========================================== */
+
 body {
     font-family: "Inter", sans-serif;
     margin: 0;
@@ -34,14 +38,11 @@ h3 {
 p {
     max-width: 720px;
     margin: 14px auto;
-    line-height: 1.7;
     padding: 0 20px;
+    line-height: 1.7;
     font-size: 18px;
     color: #333;
 }
-
-
-/* ---------- Sections ---------- */
 
 section {
     margin-top: 40px;
@@ -49,7 +50,9 @@ section {
 }
 
 
-/* ---------- Album Card ---------- */
+/* ==========================================
+   HOME PAGE
+========================================== */
 
 .album {
     max-width: 900px;
@@ -57,22 +60,43 @@ section {
     padding: 40px 20px;
     border-radius: 18px;
 
-    /* Lemons → Roses vibe */
     background: linear-gradient(135deg, #fff7d6, #ffe6ee);
 
-    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    box-shadow: 0 10px 30px rgba(0,0,0,.05);
 
-    transition: transform 0.25s ease,
-                box-shadow 0.25s ease;
+    transition: transform .25s ease,
+                box-shadow .25s ease;
 }
 
 .album:hover {
     transform: translateY(-6px);
-    box-shadow: 0 18px 40px rgba(0,0,0,0.08);
+    box-shadow: 0 18px 40px rgba(0,0,0,.08);
+}
+
+.album-title {
+    font-size: 36px;
+    font-weight: 600;
+    color: #222;
+}
+
+.album-subtitle {
+    font-size: 21px;
+    font-weight: 500;
+    color: #555;
+}
+
+.divider {
+    width: 60px;
+    height: 2px;
+    background: rgba(0,0,0,.1);
+    margin: 30px auto;
+    border-radius: 2px;
 }
 
 
-/* ---------- Spotify Embed ---------- */
+/* ==========================================
+   SPOTIFY
+========================================== */
 
 iframe {
     display: block;
@@ -80,30 +104,6 @@ iframe {
     max-width: 720px;
     width: 100%;
 }
-
-
-/* ---------- Dive Right In ---------- */
-
-.album-button {
-    display: inline-block;
-    margin: 24px 0;
-    padding: 10px 22px;
-    font-size: 22px;
-    font-weight: 600;
-    color: #155e75;
-    text-decoration: none;
-    border: 2px solid #155e75;
-    border-radius: 30px;
-    transition: all 0.25s ease;
-}
-
-.album-button:hover {
-    background: #155e75;
-    color: white;
-    transform: translateY(-3px);
-}
-
-/* ---------- Spotify Button ---------- */
 
 .button {
     display: inline-block;
@@ -114,115 +114,116 @@ iframe {
     text-decoration: none;
     border-radius: 10px;
     font-size: 14px;
-    transition: all 0.2s ease;
+    transition: all .2s ease;
 }
 
 .button:hover {
     transform: translateY(-2px);
-    opacity: 0.9;
+    opacity: .9;
 }
 
 
-/* ---------- Text Styles ---------- */
+/* ==========================================
+   DIVE RIGHT IN
+========================================== */
 
-.desc {
-    font-size: 18px;
-    color: #333;
-}
+.album-button {
+    display: inline-block;
+    margin: 24px 0;
+    padding: 10px 22px;
 
-.note {
-    font-size: 16px;
-    color: #555;
-    margin-top: -6px;
-}
-
-
-/* ---------- Divider ---------- */
-
-.divider {
-    width: 60px;
-    height: 2px;
-    background: rgba(0,0,0,0.1);
-    margin: 30px auto;
-    border-radius: 2px;
-} 
-/* ---------- Album Typography ---------- */
-
-.album-title {
-    font-size: 36px;
+    font-size: 22px;
     font-weight: 600;
-    color: #222;
-    margin-top: 10px;
+
+    color: #155e75;
+
+    text-decoration: none;
+
+    border: 2px solid #155e75;
+    border-radius: 30px;
+
+    transition: all .25s ease;
 }
 
-.album-subtitle {
-    font-size: 21px;
-    font-weight: 500;
-    color: #555;
-    margin-top: -5px;
+.album-button:hover {
+    background: #155e75;
+    color: white;
+    transform: translateY(-3px);
 }
-/* ---------- Footer ---------- */
+
+
+/* ==========================================
+   FOOTER
+========================================== */
 
 footer {
     margin-top: 60px;
     padding: 30px 20px;
     font-size: 16px;
-    color: #555;
 }
 
 footer a {
     color: #155e75;
     text-decoration: none;
     font-weight: 500;
-    transition: color 0.2s ease;
 }
 
 footer a:hover {
     color: #0c4a6e;
 }
-/* ---------- Song Gallery ---------- */
+
+
+/* ==========================================
+   LEMONS & ROSES PAGE
+========================================== */
+
+.album-intro {
+    max-width: 650px;
+    margin: 10px auto 70px;
+    font-size: 20px;
+    color: #666;
+}
 
 .song-gallery {
-    max-width: 1100px;
-    margin: 80px auto;
     display: flex;
     justify-content: center;
+    margin: 80px auto;
     padding: 0 30px;
 }
 
-/* ---------- Song Card ---------- */
-
 .song-card {
     position: relative;
-    width: 340px;
-    height: 340px;
-    border-radius: 22px;
+
+    width: 380px;
+    height: 380px;
+
     overflow: hidden;
+    border-radius: 18px;
+
     text-decoration: none;
 
-    box-shadow: 0 12px 35px rgba(0,0,0,0.12);
+    box-shadow: 0 12px 35px rgba(0,0,0,.12);
 
-    transition: transform .35s ease,
-                box-shadow .35s ease;
+    transition: transform .3s ease,
+                box-shadow .3s ease;
 }
 
 .song-card:hover {
-    transform: translateY(-8px) scale(1.02);
-    box-shadow: 0 22px 50px rgba(0,0,0,.18);
+    transform: translateY(-8px);
+    box-shadow: 0 20px 45px rgba(0,0,0,.18);
 }
 
 .song-card img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+
     transition: transform .5s ease;
 }
 
 .song-card:hover img {
-    transform: scale(1.08);
+    transform: scale(1.06);
 }
-
-/* ---------- Overlay ---------- */
 
 .song-overlay {
     position: absolute;
@@ -240,31 +241,57 @@ footer a:hover {
         rgba(0,0,0,.15),
         transparent
     );
-
-    color: white;
 }
 
-.song-overlay h2 {
+.song-title {
     margin: 0;
+    color: white;
     font-size: 34px;
     font-weight: 600;
 }
 
-.song-overlay p {
-    margin: 8px 0 0;
-    color: rgba(255,255,255,.9);
-    font-size: 16px;
-    max-width: none;
+.song-vibe {
+    margin: 6px 0 0;
     padding: 0;
+
+    color: rgba(255,255,255,.9);
+
+    font-size: 16px;
+
+    max-width: none;
 }
-/* ---------- Song Cover ---------- */
+
+
+/* ==========================================
+   SONG PROFILE PAGE
+========================================== */
 
 .song-cover {
-    width: 350px;
+    width: 340px;
     max-width: 90%;
-    height: auto;
+
     display: block;
-    margin: 30px auto;
+    margin: 35px auto;
+
     border-radius: 18px;
-    box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+
+    box-shadow: 0 12px 30px rgba(0,0,0,.12);
+}
+
+.song-profile {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 0 25px;
+}
+
+.profile-card {
+    background: white;
+
+    border-radius: 18px;
+
+    padding: 40px;
+
+    text-align: left;
+
+    box-shadow: 0 8px 30px rgba(0,0,0,.05);
 }
