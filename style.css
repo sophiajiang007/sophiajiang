@@ -257,3 +257,14 @@ footer a:hover {
     max-width: none;
     padding: 0;
 }
+/* ---------- Song Cover ---------- */
+
+.song-cover {
+    width: 350px;
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+    border-radius: 18px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
