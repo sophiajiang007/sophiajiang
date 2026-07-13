@@ -22,10 +22,11 @@ h1 {
 }
 
 h2 {
-    margin-top: 10px;
+    margin-top: -20px;
+    margin-bottom: 35px;
     font-weight: 500;
-    font-size: 32px;
-    color: #222;
+    font-size: 22px;
+    color: #666;
 }
 
 h3 {
