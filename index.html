@@ -21,20 +21,14 @@
 
     <section>
 
-        <div class="album">
+        <div class="album" id="album-card">
 
-            <!-- Clickable Project Header -->
-            <a href="lemons-roses.html" class="album-link">
+            <h2 class="album-title">Lemons & Roses</h2>
 
-                <h2 class="album-title">Lemons & Roses</h2>
+            <h3 class="album-subtitle">Demo Album</h3>
 
-                <h3 class="album-subtitle">Demo Album</h3>
+            <div class="divider"></div>
 
-                <div class="divider"></div>
-
-            </a>
-
-            <!-- Spotify stays separate -->
             <iframe
                 style="border-radius:12px"
                 src="https://open.spotify.com/embed/artist/32SN13aFvNxRNreC6t4wWb"
@@ -43,14 +37,9 @@
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
             </iframe>
 
-            <!-- Clickable footer of card -->
-            <a href="lemons-roses.html" class="album-link">
-
-                <div class="album-cta">
-                    More About the Project →
-                </div>
-
-            </a>
+            <div class="album-cta">
+                Explore the Album →
+            </div>
 
             <br>
 
@@ -77,6 +66,22 @@
             </a>
         </p>
     </footer>
+
+    <script>
+
+        const albumCard = document.getElementById("album-card");
+
+        albumCard.addEventListener("click", function (e) {
+
+            if (e.target.closest("iframe")) return;
+
+            if (e.target.closest(".button")) return;
+
+            window.location.href = "lemons-roses.html";
+
+        });
+
+    </script>
 
 </body>
 </html>
