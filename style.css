@@ -66,12 +66,17 @@ section {
     box-shadow: 0 10px 30px rgba(0,0,0,.05);
 
     transition: transform .25s ease,
-                box-shadow .25s ease;
+                box-shadow .25s ease,
+                filter .25s ease;
+
+    cursor: pointer;
 }
 
 .album:hover {
     transform: translateY(-6px);
     box-shadow: 0 18px 40px rgba(0,0,0,.08);
+
+    filter: brightness(1.02);
 }
 
 .album-title {
@@ -122,37 +127,24 @@ iframe {
     transform: translateY(-2px);
     opacity: .9;
 }
+.album-cta {
 
+    margin-top: 34px;
 
-/* ==========================================
-   DIVE RIGHT IN
-========================================== */
-
-.album-button {
-    display: inline-block;
-    margin: 24px 0;
-    padding: 10px 22px;
-
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 600;
 
     color: #155e75;
 
-    text-decoration: none;
+    transition: transform .25s ease;
 
-    border: 2px solid #155e75;
-    border-radius: 30px;
-
-    transition: all .25s ease;
 }
 
-.album-button:hover {
-    background: #155e75;
-    color: white;
-    transform: translateY(-3px);
+.album:hover .album-cta {
+
+    transform: translateX(8px);
+
 }
-
-
 /* ==========================================
    FOOTER
 ========================================== */
