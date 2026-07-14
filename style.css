@@ -298,4 +298,95 @@ footer a:hover {
 
     box-shadow: 0 8px 30px rgba(0,0,0,.05);
 }
- 
+
+/* ==========================================
+   CALI PAGE
+========================================== */
+
+.listen-section {
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 0 30px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+}
+
+.spotify-player iframe {
+    width: 100%;
+    height: 352px;
+    border-radius: 16px;
+}
+
+.lyrics-box {
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 8px 30px rgba(0,0,0,.05);
+
+    padding: 28px;
+
+    height: 352px;
+
+    overflow-y: auto;
+
+    text-align: left;
+}
+
+.lyrics-box h3{
+    margin-top:0;
+    margin-bottom:18px;
+}
+
+.lyrics{
+    white-space: pre-wrap;
+    line-height:1.9;
+    color:#333;
+    font-size:16px;
+}
+
+.profile-card{
+    max-width:900px;
+    margin:auto;
+}
+
+.background-card{
+
+    max-width:900px;
+    margin:40px auto;
+
+    background:white;
+    border-radius:18px;
+
+    padding:40px;
+
+    text-align:left;
+
+    box-shadow:0 8px 30px rgba(0,0,0,.05);
+}
+
+.background-card h3{
+    margin-top:0;
+}
+
+.background-card p{
+    max-width:none;
+    padding:0;
+}
+
+@media (max-width:850px){
+
+.listen-section{
+
+grid-template-columns:1fr;
+
+}
+
+.lyrics-box{
+
+height:450px;
+
+}
+
+}
