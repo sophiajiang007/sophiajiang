@@ -56,7 +56,7 @@ section {
 ========================================== */
 
 .album {
-    max-width: 900px;
+    max-width: 1150px;
     margin: 0 auto;
     padding: 40px 20px;
     border-radius: 18px;
@@ -289,7 +289,7 @@ footer a:hover {
 
     grid-template-columns: 1fr 1fr;
 
-    gap: 32px;
+    gap: 48px;
 
     align-items: stretch;
 
