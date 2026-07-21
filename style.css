@@ -328,11 +328,17 @@ footer a:hover {
 
 }
 
+.process-card a {
+
+    display: block;
+
+}
+
 .process-card img {
 
     max-width: 100%;
 
-    max-height: 320px;
+    max-height: 360px;
 
     width: auto;
 
@@ -341,6 +347,16 @@ footer a:hover {
     display: block;
 
     border-radius: 12px;
+
+    transition: transform .25s ease;
+
+}
+
+.process-card img:hover {
+
+    transform: scale(1.02);
+
+    cursor: zoom-in;
 
 }
 
