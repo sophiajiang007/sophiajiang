@@ -2442,3 +2442,9 @@ body.song-modal-open {
         padding: 25px;
     }
 }
+.video-container iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: none;
+    display: block;
+}
