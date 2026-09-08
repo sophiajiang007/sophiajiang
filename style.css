@@ -2682,7 +2682,7 @@ body.song-modal-open {
 
 .artist-copy > p:nth-child(2) {
     grid-row: 2;
-    margin-top: 45px;
+    margin-top: 25px;
 }
 
 /* PHOTO sits on the RIGHT */
@@ -2704,7 +2704,7 @@ body.song-modal-open {
     height: 100%;
 
     object-fit: cover;
-    object-position: center 65%;
+    object-position: center 82%;
 
     transform: scale(1.15);
 }
