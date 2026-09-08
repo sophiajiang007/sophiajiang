@@ -2040,7 +2040,17 @@ closeButton.addEventListener("click", closeSong);
 
 backButton.addEventListener("click", closeSong);
 homeButton.addEventListener("click", closeSong);
+nextButton.addEventListener("click", () => {
+    const currentSong = Object.keys(songs).find(
+        songId => songs[songId].title === modal.querySelector(".song-modal-title").textContent
+    );
 
+    const nextSongId = songs[currentSong]?.next;
+
+    if (nextSongId) {
+        openSong(nextSongId, nextButton);
+    }
+});
 
 // Click outside the content
 modal.querySelector(".song-modal-backdrop")
