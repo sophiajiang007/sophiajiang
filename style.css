@@ -2314,7 +2314,66 @@ body.song-modal-open {
 /* ---------------------------------------------------------
    END
    --------------------------------------------------------- */
+.song-modal-next {
+    margin-top: 110px;
+    padding: 55px 0 0;
+    border-top: 1px solid rgba(21, 21, 21, 0.18);
+}
 
+.song-modal-next-label {
+    display: block;
+    margin-bottom: 22px;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    opacity: 0.55;
+}
+
+.song-modal-next-button {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    background: none;
+    color: #151515;
+    font-family: "DM Serif Display", serif;
+    font-size: clamp(60px, 10vw, 140px);
+    font-weight: 400;
+    line-height: 0.9;
+    letter-spacing: -0.04em;
+    text-align: left;
+    cursor: pointer;
+}
+
+.song-modal-next-title {
+    transition: transform 0.35s ease;
+}
+
+.song-modal-next-arrow {
+    font-family: Inter, sans-serif;
+    font-size: clamp(35px, 5vw, 70px);
+    font-weight: 300;
+    transition: transform 0.35s ease;
+}
+
+.song-modal-next-button:hover .song-modal-next-title {
+    transform: translateX(18px);
+}
+
+.song-modal-next-button:hover .song-modal-next-arrow {
+    transform: translateX(12px);
+}
+
+.song-modal-next-track {
+    display: block;
+    margin-top: 22px;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    opacity: 0.55;
+}
 .song-modal-end {
     display: flex;
     flex-direction: column;
@@ -2341,6 +2400,18 @@ body.song-modal-open {
 
 @media (max-width: 800px) {
 
+   .song-modal-next {
+    margin-top: 90px;
+    padding-top: 40px;
+}
+
+.song-modal-next-button {
+    font-size: 18vw;
+}
+
+.song-modal-next-arrow {
+    font-size: 40px;
+}
     .song-modal-inner {
         padding: 35px 6vw 90px;
     }
