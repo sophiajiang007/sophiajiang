@@ -1,2083 +1,2446 @@
-<!DOCTYPE html>
-<html lang="en">
+/* =========================================================
+   LEMONS & ROSES
+   Sophia Jiang
+========================================================= */
 
-<head>
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z31W2Q1KDQ"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+/* =========================================================
+   RESET
+========================================================= */
 
-        gtag('config', 'G-Z31W2Q1KDQ');
-    </script>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Sophia Jiang — Lemons & Roses</title>
-
-    <meta name="description"
-        content="Sophia Jiang is a singer-songwriter, producer, and musician building Lemons & Roses — a world of sound, story, and pop mythology.">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600&display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet" href="style.css">
-
-</head>
-
-<body>
-
-<!-- =========================================================
-     NAVIGATION
-========================================================= -->
-
-<nav class="nav">
-
-    <a href="#top" class="nav-logo">
-        SOPHIA JIANG
-    </a>
-
-    <div class="nav-links">
-
-        <a href="#music">Music</a>
-        <a href="#world">World</a>
-        <a href="#artist">Artist</a>
-        <a href="#audience">Audience</a>
-        <a href="#future">Future</a>
-
-    </div>
-
-</nav>
-
-
-<main id="top">
-
-
-<!-- =========================================================
-     HERO
-========================================================= -->
-
-<section class="hero">
-
-    <div class="hero-content">
-
-        <p class="eyebrow">A DEMO ALBUM BY SOPHIA JIANG</p>
-
-        <h1>
-            Lemons
-            <span>&</span>
-            Roses
-        </h1>
-
-        <p class="hero-question">
-            What came first,<br>
-            the lemon or the rose?
-        </p>
-
-        <a href="#pitch" class="hero-arrow">
-            ↓
-        </a>
-
-    </div>
-
-</section>
-
-
-<!-- =========================================================
-     MISSION
-========================================================= -->
-
-<section class="mission section-dark" id="mission">
-
-    <div class="section-number">01</div>
-
-    <div class="mission-content">
-
-        <p class="eyebrow">THE MISSION</p>
-
-        <h2>
-            When life hands you the sourness
-            of a lemon & the thorns of a rose,
-            you still choose to hope.
-        </h2>
-
-        <p class="signature">
-            ~ from a dreamer, for the dreamers
-            <br>
-            <strong>Love, Sophia Jiang</strong>
-        </p>
-
-    </div>
-
-</section>
-
-
-<!-- =========================================================
-     PITCH
-========================================================= -->
-
-<section class="pitch section-light" id="pitch">
-
-    <div class="section-number">02</div>
-
-    <div class="pitch-grid">
-
-        <div class="pitch-heading">
-
-            <p class="eyebrow">THE PITCH</p>
-
-            <h2>
-                What came first,
-                the lemon or the rose?
-            </h2>
-
-        </div>
-
-
-        <div class="pitch-copy">
-
-            <p>
-                I'm Sophia, a singer-songwriter who wrote a
-                17-song album trying to answer this question.
-            </p>
-
-            <p>
-                It may not even make sense to you yet, but this
-                is exactly what I bring to market — I am not
-                simply trying to write songs. <strong>I am building
-                a world with sound.</strong>
-            </p>
-
-            <p>
-                Anyone can write and produce a song today, but
-                not everyone can take a lemon, a rose, the number
-                7, a cloud, a city, a person — and turn them into
-                pop mythology.
-            </p>
-
-            <p>
-                So, if you want to know the answer to my question,
-                you're going to have to start with my demos.
-            </p>
-
-        </div>
-
-    </div>
-
-
-    <!-- VIDEO PLACEHOLDER -->
-
-    <div class="video-container">
-
-        <div class="video-placeholder">
-
-            <div class="play-circle">
-                ▶
-            </div>
-
-            <p>
-                THE LEMONS & ROSES STORY
-            </p>
-
-            <span>
-                Pitch video coming soon
-            </span>
-
-        </div>
-
-        <!--
-        WHEN YOU HAVE YOUR VIDEO:
-
-        Replace the placeholder above with something like:
-
-        <video controls playsinline>
-            <source src="videos/lemons-roses-pitch.mp4" type="video/mp4">
-        </video>
-
-        -->
-
-    </div>
-
-</section>
-
-
-<!-- =========================================================
-     MUSIC
-========================================================= -->
-
-<section class="music-section" id="music">
-
-    <div class="section-number">03</div>
-
-    <div class="section-header">
-
-        <div>
-
-            <p class="eyebrow">THE MUSIC</p>
-
-            <h2>
-                Start with the demos.
-            </h2>
-
-        </div>
-
-        <p class="section-intro">
-            17 songs, written by me, demos produced by me.
-        </p>
-
-    </div>
-
-
-    <!-- Spotify -->
-
-    <div class="spotify-feature">
-
-        <div class="spotify-heading">
-
-            <p class="small-label">LISTEN</p>
-
-            <h3>
-                Lemons & Roses
-            </h3>
-
-            <p>
-                Demo Album
-            </p>
-
-        </div>
-
-        <iframe
-            src="https://open.spotify.com/embed/artist/32SN13aFvNxRNreC6t4wWb"
-            height="380"
-            frameborder="0"
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
-        </iframe>
-
-    </div>
-
-
-    <!-- Song Cards -->
-
-<div class="song-gallery">
-
-    <button class="song-card" type="button" data-song="lemons-and-roses">
-
-        <img
-            src="images/lemons-and-roses-cover-photo.jpg"
-            alt="Lemons & Roses">
-
-        <div class="song-card-info">
-
-            <span>01</span>
-
-            <h3>Lemons & Roses</h3>
-
-            <p>THE TITLE TRACK</p>
-
-        </div>
-
-    </button>
-
-
-    <button class="song-card" type="button" data-song="cali">
-
-        <img
-            src="images/cali-cover.jpg"
-            alt="Cali">
-
-        <div class="song-card-info">
-
-            <span>02</span>
-
-            <h3>Cali</h3>
-
-            <p>THE POP SINGLE</p>
-
-        </div>
-
-    </button>
-
-
-    <button class="song-card" type="button" data-song="ruthless">
-
-        <img
-            src="images/ruthless-cover.jpg"
-            alt="Ruthless">
-
-        <div class="song-card-info">
-
-            <span>03</span>
-
-            <h3>Ruthless</h3>
-
-            <p>THE BALLAD</p>
-
-        </div>
-
-    </button>
-
-
-    <button class="song-card" type="button" data-song="my-gentleman">
-
-        <img
-            src="images/my-gentleman-cover.jpg"
-            alt="My Gentleman">
-
-        <div class="song-card-info">
-
-            <span>04</span>
-
-            <h3>My Gentleman</h3>
-
-            <p>THE BREAKUP SONG</p>
-
-        </div>
-
-    </button>
-
-
-    <button class="song-card" type="button" data-song="san-something">
-
-        <img
-            src="images/san-something-cover.jpg"
-            alt="San Something">
-
-        <div class="song-card-info">
-
-            <span>05</span>
-
-            <h3>San Something</h3>
-
-            <p>THE OUTLIER TRACK</p>
-
-        </div>
-
-    </button>
-
-
-        <div class="song-card coming-soon-card">
-
-            <div>
-
-                <span>06 — 17</span>
-
-                <h3>More of the world</h3>
-
-                <p>
-                    The remaining songs are waiting
-                    to be discovered.
-                </p>
-
-            </div>
-
-        </div>
-
-    </div>
-
-
-    <div class="center-button">
-
-        <a
-            href="https://open.spotify.com/artist/32SN13aFvNxRNreC6t4wWb"
-            target="_blank"
-            class="outline-button">
-
-            LISTEN ON SPOTIFY →
-
-        </a>
-
-    </div>
-
-</section>
-
-
-<!-- =========================================================
-     THE WORLD
-========================================================= -->
-
-<section class="world-section" id="world">
-
-    <div class="section-number">04</div>
-
-    <div class="world-intro">
-
-        <p class="eyebrow">THE WORLD</p>
-
-        <h2>
-            This isn't just an album.
-        </h2>
-
-        <p>
-            Lemons & Roses is a universe built through sound.
-        </p>
-
-    </div>
-
-
-    <div class="symbols">
-
-        <div class="symbol">
-
-            <div class="symbol-icon">🍋</div>
-
-            <h3>LEMON</h3>
-
-            <p>
-                Growing up is sour.
-            </p>
-
-        </div>
-
-
-        <div class="symbol">
-
-            <div class="symbol-icon">🌹</div>
-
-            <h3>ROSE</h3>
-
-            <p>
-                First love is real.
-            </p>
-
-        </div>
-
-
-        <div class="symbol">
-
-            <div class="symbol-icon">7</div>
-
-            <h3>SEVEN</h3>
-
-            <p>
-                The lucky number.
-            </p>
-
-        </div>
-
-
-        <div class="symbol">
-
-            <div class="symbol-icon">☁</div>
-
-            <h3>CLOUD</h3>
-
-            <p>
-                Your dreams lie somewhere above.
-            </p>
-
-        </div>
-
-
-        <div class="symbol">
-
-            <div class="symbol-icon">🌴</div>
-
-            <h3>CALIFORNIA</h3>
-
-            <p>
-                The promiseland of a better tomorrow.
-            </p>
-
-        </div>
-
-
-        <div class="symbol">
-
-            <div class="symbol-icon">♫</div>
-
-            <h3>SOUND</h3>
-
-            <p>
-                The world lives through your ears.
-            </p>
-
-        </div>
-
-    </div>
-
-
-    <div class="world-statement">
-
-        <p>
-            Every song has a personality.
-            <br>
-            Every symbol has a meaning.
-            <br>
-            Every place has a memory.
-            <br>
-            Every sound belongs somewhere.
-        </p>
-
-    </div>
-
-</section>
-
-
-<!-- =========================================================
-     ARTIST
-========================================================= -->
-
-<section class="artist-section" id="artist">
-
-    <div class="section-number">05</div>
-
-    <div class="artist-grid">
-
-        <div class="artist-title">
-
-            <p class="eyebrow">THE ARTIST</p>
-
-            <h2>
-                Sophia Jiang
-            </h2>
-
-            <p class="artist-subtitle">
-                Songwriter · Producer · Musician
-            </p>
-
-        </div>
-
-
-        <div class="artist-copy">
-    <p>
-        My passion is music: songwriting, voice,
-        piano, violin, production and arrangement.
-        But Lemons & Roses also exists at the intersection
-        of story, visual identity, technology, data and
-        culture.
-    </p>
-
-    <p>
-        I want to make something that inspires people to think harder, feel more, dream bigger.
-    </p>
-
-    <div class="artist-photo">
-        <img src="images/sophia-artist.jpg" alt="Sophia Jiang">
-    </div>
-</div>
-
-    </div>
-
-
-    <div class="artist-pillars">
-
-
-        <div class="pillar">
-
-            <span>01</span>
-
-            <h3>MUSICIAN</h3>
-
-            <p>
-                Voice · Piano · Violin · Songwriting
-            </p>
-
-        </div>
-
-
-        <div class="pillar">
-
-            <span>02</span>
-
-            <h3>PRODUCER</h3>
-
-            <p>
-                DAW · Audio · Arrangement · Mixing
-            </p>
-
-        </div>
-
-
-        <div class="pillar">
-
-            <span>03</span>
-
-            <h3>STORYTELLER</h3>
-
-            <p>
-                Lyrics · Worldbuilding · Visual identity
-            </p>
-
-        </div>
-
-
-        <div class="pillar">
-
-            <span>04</span>
-
-            <h3>OPERATOR</h3>
-
-            <p>
-                Data · Marketing · Audience development
-            </p>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =========================================================
-     AUDIENCE
-========================================================= -->
-
-<section class="audience-section" id="audience">
-
-    <div class="section-number">06</div>
-
-    <div class="audience-header">
-
-        <p class="eyebrow">THE AUDIENCE</p>
-
-        <h2>
-            Who is this for?
-        </h2>
-
-    </div>
-
-
-    <div class="audience-grid">
-
-
-        <div class="audience-block core">
-
-            <span class="small-label">CORE AUDIENCE</span>
-
-            <h3>
-                People figuring
-                themselves out.
-            </h3>
-
-            <ul>
-
-                <li>Young adults</li>
-                <li>Women & girls</li>
-                <li>Students</li>
-                <li>Asian Americans / Asians</li>
-
-            </ul>
-
-        </div>
-
-
-        <div class="audience-block music">
-
-            <span class="small-label">MUSIC AUDIENCE</span>
-
-            <h3>
-                People who want
-                something different.
-            </h3>
-
-            <ul>
-
-                <li>Genre blenders</li>
-                <li>Pop listeners</li>
-                <li>Classical crossover</li>
-                <li>Lyric-focused listeners</li>
-
-            </ul>
-
-        </div>
-
-
-        <div class="audience-block emotional">
-
-            <span class="small-label">EMOTIONAL AUDIENCE</span>
-
-            <h3>
-                People who need
-                to be inspired.
-            </h3>
-
-            <ul>
-
-                <li>People navigating heartbreak</li>
-                <li>People growing up</li>
-                <li>People searching for identity</li>
-                <li>Dreamers</li>
-
-            </ul>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =========================================================
-     GROWTH ENGINE
-========================================================= -->
-
-<section class="engine-section">
-
-    <div class="section-number">07</div>
-
-    <div class="engine-header">
-
-        <p class="eyebrow">THE ENGINE</p>
-
-        <h2>
-            Music → Content → Audience
-        </h2>
-
-        <p>
-            
-            The algorithm is part of the game.
-            
-        </p>
-
-    </div>
-
-
-    <div class="engine-flow">
-
-        <div class="engine-step">
-            <span>01</span>
-            <h3>MUSIC</h3>
-            <p>
-                Songs create the foundation of the world.
-            </p>
-        </div>
-
-        <div class="engine-arrow">→</div>
-
-        <div class="engine-step">
-            <span>02</span>
-            <h3>CONTENT</h3>
-            <p>
-                Music becomes stories, performances and videos.
-            </p>
-        </div>
-
-        <div class="engine-arrow">→</div>
-
-        <div class="engine-step">
-            <span>03</span>
-            <h3>AUDIENCE</h3>
-            <p>
-                People enter the world through content.
-            </p>
-        </div>
-
-        <div class="engine-arrow">→</div>
-
-        <div class="engine-step">
-            <span>04</span>
-            <h3>DATA</h3>
-            <p>
-                Audience behavior reveals what resonates.
-            </p>
-        </div>
-
-        <div class="engine-arrow">→</div>
-
-        <div class="engine-step">
-            <span>05</span>
-            <h3>CREATIVE</h3>
-            <p>
-                What I learn informs what I build next.
-            </p>
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =========================================================
-     BUSINESS MODEL
-========================================================= -->
-
-<section class="business-section">
-
-    <div class="section-number">08</div>
-
-    <div class="business-header">
-
-        <p class="eyebrow">THE BUSINESS</p>
-
-        <h2>
-            An artist project
-            built like a world.
-        </h2>
-
-        <p>
-            Lemons & Roses is not like anything that's already on the market.
-        </p>
-
-    </div>
-
-
-    <div class="business-grid">
-
-
-        <div class="business-card">
-
-            <span>THE PRODUCT</span>
-
-            <h3>
-                Music
-            </h3>
-
-            <p>
-                17-song album · Singles · Live performance ·
-                Visual content · Music videos
-            </p>
-
-        </div>
-
-
-        <div class="business-card">
-
-            <span>THE BRAND</span>
-
-            <h3>
-                A recognizable world
-            </h3>
-
-            <p>
-                Hope, youth, identity, love, heartbreak,
-                transformation and pop mythology.
-            </p>
-
-        </div>
-
-
-        <div class="business-card">
-
-            <span>THE CHANNELS</span>
-
-            <h3>
-                Where the world travels
-            </h3>
-
-            <p>
-                Spotify · TikTok · Instagram · Live ·
-                Radio · TV · In-person experiences
-            </p>
-
-        </div>
-
-
-        <div class="business-card">
-
-            <span>THE PARTNERS</span>
-
-            <h3>
-                Who can scale it
-            </h3>
-
-            <p>
-                Record label · A&R · Producers · Engineers ·
-                Musicians · Creators · Fashion · Brands
-            </p>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =========================================================
-     SOCIALS
-========================================================= -->
-
-<section class="social-section">
-
-    <div class="section-number">09</div>
-
-    <div class="social-header">
-
-        <p class="eyebrow">THE EXPERIMENT</p>
-
-        <h2>
-            Building the audience
-            in public.
-        </h2>
-
-        <p>
-            TikTok, Instagram and everything in between
-            are part of the experiment.
-        </p>
-
-    </div>
-
-
-    <div class="social-grid">
-
-
-        <a
-            href="https://www.tiktok.com/@santasophia107"
-            target="_blank"
-            class="social-card">
-
-            <span>TIKTOK</span>
-
-            <h3>
-                Watch the experiment →
-            </h3>
-
-            <p>
-                Performance, songwriting, production
-                and the world behind the music.
-            </p>
-
-        </a>
-
-
-        <a
-            href="https://www.instagram.com/sophiajiang007/"
-            target="_blank"
-            class="social-card">
-
-            <span>INSTAGRAM</span>
-
-            <h3>
-                Enter the visual world →
-            </h3>
-
-            <p>
-                The visual identity surrounding
-                Lemons & Roses.
-            </p>
-
-        </a>
-
-
-        <a
-            href="https://substack.com/@sophiajiang7"
-            target="_blank"
-            class="social-card">
-
-            <span>SUBSTACK</span>
-
-            <h3>
-                Read the thinking →
-            </h3>
-
-            <p>
-                Writing, ideas and the stories
-                behind the project.
-            </p>
-
-        </a>
-
-    </div>
-
-</section>
-
-
-<!-- =========================================================
-     EXPANSION
-========================================================= -->
-
-<section class="future-section" id="future">
-
-    <div class="section-number">10</div>
-
-    <div class="future-header">
-
-        <p class="eyebrow">THE FUTURE</p>
-
-        <h2>
-            The album is just
-            the beginning.
-        </h2>
-
-    </div>
-
-
-    <div class="future-map">
-
-        <div>🎵 MUSIC</div>
-
-        <span>→</span>
-
-        <div>🎥 VISUALS</div>
-
-        <span>→</span>
-
-        <div>👗 FASHION</div>
-
-        <span>→</span>
-
-        <div>🌹 ARTIFACTS</div>
-
-        <span>→</span>
-
-        <div>🌎 LIVE EXPERIENCES</div>
-
-        <span>→</span>
-
-        <div>🤝 COMMUNITY</div>
-
-    </div>
-
-
-    <div class="future-statement">
-
-        <p>
-            I want people to be able to enter Lemons & Roses
-            through a song — and eventually find themselves
-            somewhere much bigger.
-        </p>
-
-    </div>
-
-</section>
-
-
-<!-- =========================================================
-     PARTNERSHIP CTA
-========================================================= -->
-
-<section class="partner-section">
-
-    <div class="partner-content">
-
-        <p class="eyebrow">
-            THE NEXT CHAPTER
-        </p>
-
-        <h2>
-            I'm looking<br>
-            for a partner.
-        </h2>
-
-        <p>
-            I have the songs.
-            <br>
-            I have the world.
-            <br>
-            I am building the audience.
-        </p>
-
-        <p>
-            Now I'm looking for the right people
-            to help take Lemons & Roses further.
-        </p>
-
-
-        <a
-            href="mailto:sophiajiangmusic@gmail.com?subject=Lemons%20%26%20Roses%20—%20Let's%20Talk"
-            class="partner-button">
-
-            LET'S BUILD IT →
-
-        </a>
-
-    </div>
-
-</section>
-
-
-</main>
-
-
-<!-- =========================================================
-     FOOTER
-========================================================= -->
-
-<footer>
-
-    <div class="footer-name">
-        SOPHIA JIANG
-    </div>
-
-    <div class="footer-links">
-
-        <a
-            href="https://open.spotify.com/artist/32SN13aFvNxRNreC6t4wWb"
-            target="_blank">
-            Spotify
-        </a>
-
-        <a
-            href="https://www.instagram.com/sophiajiang007/"
-            target="_blank">
-            Instagram
-        </a>
-
-        <a
-            href="https://www.tiktok.com/@santasophia107"
-            target="_blank">
-            TikTok
-        </a>
-
-        <a
-            href="https://substack.com/@sophiajiang7"
-            target="_blank">
-            Substack
-        </a>
-
-        <a
-            href="mailto:sophiajiangmusic@gmail.com">
-            Email
-        </a>
-
-    </div>
-
-    <p class="footer-copy">
-        Lemons & Roses · Sophia Jiang
-    </p>
-
-</footer>
-<!-- Song Profile Modal -->
-
-<div id="song-modal" class="song-modal" aria-hidden="true">
-
-    <div class="song-modal-backdrop"></div>
-
-    <div
-        class="song-modal-panel"
-        role="dialog"
-        aria-modal="true"
-        aria-labelledby="song-modal-title"
-    >
-
-        <button
-            class="song-modal-close"
-            type="button"
-            aria-label="Close song profile"
-        >
-            ×
-        </button>
-
-
-        <div class="song-modal-inner">
-
-            <!-- Header -->
-
-            <div class="song-modal-header">
-
-    <button
-        class="song-modal-back"
-        type="button"
-    >
-        ← BACK TO ALBUM
-    </button>
-
-    <button
-        class="song-modal-home"
-        type="button"
-    >
-        LEMONS &amp; ROSES
-    </button>
-
-</div>
-
-
-            <!-- Song Title -->
-
-            <div class="song-modal-title-section">
-
-                <h1
-                    id="song-modal-title"
-                    class="song-modal-title"
-                ></h1>
-
-            </div>
-
-
-            <!-- Hero -->
-
-            <section class="song-modal-hero">
-
-                <div>
-
-                    <img
-                        class="song-modal-cover"
-                        src=""
-                        alt=""
-                    >
-
-                </div>
-
-
-                <div class="song-modal-meta">
-
-                    <div class="song-modal-meta-item">
-
-                        <span>GENRE</span>
-
-                        <p class="song-modal-genre"></p>
-
-                    </div>
-
-
-                    <div class="song-modal-meta-item">
-
-                        <span>WRITTEN</span>
-
-                        <p class="song-modal-written"></p>
-
-                    </div>
-
-
-                    <div class="song-modal-meta-item">
-
-                        <span>VIBE</span>
-
-                        <p class="song-modal-vibe"></p>
-
-                    </div>
-
-                </div>
-
-            </section>
-
-
-            <!-- Listen -->
-
-            <section class="song-modal-section">
-
-                <div class="song-modal-section-heading">
-
-                    <span>01</span>
-
-                    <h3>Listen</h3>
-
-                </div>
-
-
-                <div class="song-modal-spotify">
-
-                    <iframe
-                        src="about:blank"
-                        title="Spotify player"
-                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                        loading="lazy"
-                    ></iframe>
-
-                </div>
-
-            </section>
-
-
-            <!-- Lyrics -->
-
-            <section class="song-modal-section">
-
-                <div class="song-modal-section-heading">
-
-                    <span>02</span>
-
-                    <h3>Lyrics</h3>
-
-                </div>
-
-
-                <div class="song-modal-lyrics"></div>
-
-            </section>
-
-
-            <!-- Song Profile -->
-
-            <section class="song-modal-section">
-
-                <div class="song-modal-section-heading">
-
-                    <span>03</span>
-
-                    <h3>The Profile</h3>
-
-                </div>
-
-
-                <div class="song-modal-profile-grid">
-
-                    <div class="song-modal-facts">
-
-                        <div class="song-fact">
-
-                            <span>WRITTEN</span>
-
-                            <p class="song-fact-written"></p>
-
-                        </div>
-
-
-                        <div class="song-fact">
-
-                            <span>GENRE</span>
-
-                            <p class="song-fact-genre"></p>
-
-                        </div>
-
-
-                        <div class="song-fact">
-
-                            <span>VIBE</span>
-
-                            <p class="song-fact-vibe"></p>
-
-                        </div>
-
-
-                        <div class="song-fact">
-
-                            <span>FAVORITE LINE</span>
-
-                            <p class="song-fact-line"></p>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="song-modal-daw">
-
-                        <img
-                            src=""
-                            alt=""
-                        >
-
-                    </div>
-
-                </div>
-
-            </section>
-
-
-            <!-- Making Of -->
-
-            <section class="song-modal-section">
-
-                <div class="song-modal-section-heading">
-
-                    <span>04</span>
-
-                    <h3>The Making Of</h3>
-
-                </div>
-
-
-                <div class="song-modal-story"></div>
-
-            </section>
-
-
-            <!-- End -->
-
-            <div class="song-modal-next">
-    <span class="song-modal-next-label">DIVE INTO THE NEXT</span>
-    <button class="song-modal-next-button" type="button">
-        <span class="song-modal-next-title"></span>
-        <span class="song-modal-next-arrow">→</span>
-    </button>
-    <span class="song-modal-next-track"></span>
-</div>
-
-<div class="song-modal-end">
-    <span>END OF SONG PROFILE</span>
-    <span>×</span>
-</div>
-
-        </div>
-
-    </div>
-
-</div>
-
-
-<script>
-
-    const songs = {
-
-    "ruthless": {
-
-    track: "03 / 17",
-    next: "my-gentleman",
-
-    title: "Ruthless",
-
-    cover: "images/ruthless-cover.jpg",
-
-    genre: "Ballad",
-
-    written: "March 16, 2025",
-
-    vibe: "String quartet",
-
-    favoriteLine: "It's abusive // Hidden under every smile // Is a world resigned // To a burning desire",
-
-    daw: "images/ruthless-daw.png",
-
-    spotify: "https://open.spotify.com/embed/track/0VJgO23IfwAiyLm0pyLmu4?utm_source=generator",
-
-    lyrics: `I'll be your belle
-If you'll be my beau
-So whatever you invented
-I'll let you invent it
-
-Is that you?
-Sitting under lemon trees
-At 17
-Heaven ain't
-Heavenly
-When it hasn't got you
-
-Are you truly
-Living in a real life scene
-Or a still life dream
-Intentionally
-Like you wanted me too
-
-You'll be my Jack
-And I'll be your Rose 
-And whatever your darkness is
-I’ll let your darkest in
-
-Is that you?
-Who's
-Sitting on the floor with the news 
-In the corner of the room
-At quarter of 2
-Seeing all of me through 
-
-It's elusive
-Thought I saw a shadow of you
-In the morning I knew of a
-Criminal truth
-And the horror of youth
-
-Is it useless?
-No philosopher of our
-Generation or beyond
-Could ever lay bare all their thoughts 
-
-Is it useless?
-No library of life
-Nor all of them combined
-Could ever compare to that mind
-
-This love is ruthless
-This love is ruthless
-
-Oh whatever you call it
-I'll let you call it
-
-And whatever you wanted
-I'll let you want it
-
-Is that you?
-Sitting in the back of my mind
-In the middle of the night
-Taking over my life
-Beginning from the inside
-
-It’s abusive
-Hidden under every smile
-Is a world resigned
-To a burning desire
-I'm reading every sign
-
-Your love is ruthless
-Your love is ruthless`,
-
-    background: [
-
-        `I was inspired to write this song when I was walking around my hometown mall. I remember seeing these rose and lemon patterns on the side of a JC Penney and immediately thinking about how the two symbols kept appearing together in my life. I also thought about Beauty and the Beast, and the idea of love being beautiful and dangerous at the same time. The line “Is that you? Sitting under lemon trees at 17 // Heaven ain’t heavenly // If it hasn’t got you” came to me first. I sat down at the piano and started building the song around it.`,
-
-        `The song became an exploration of the different stages of falling for someone. I deliberately avoided repeating lines except for “Is that you?”, “Is it useless?”, and “This love is ruthless.” I wanted each section to feel like another layer of understanding. The bridge came to me around 4 AM while I was sitting at a basement keyboard. I remember going outside afterward and running around and sitting on park swings. By the time I came back, I had finished the lyrics.`,
-
-        `I recorded most of the demo in a school practice room, using the room itself and the sounds around me as part of the process. Later in Vienna, I re-recorded the vocals and background vocals. My friend William played cello on the track, which helped bring the string-quartet feeling I was looking for. Once everything was recorded, I mixed the demo and sent it to Sunny to master.`
-    ]
-
-},    
-
-    "my-gentleman": {
-
-    track: "04 / 17",
-    next: "san-something",
-
-    title: "My Gentleman",
-
-    cover: "images/my-gentleman-cover.jpg",
-
-    genre: "Indie-Pop",
-
-    written: "May 24, 2025",
-
-    vibe: "Sad after a breakup",
-
-    favoriteLine: "My Gentleman wouldn't look down on me // My Gentleman, he'd think I'm something that's worth it",
-
-    daw: "images/my-gentleman-daw.jpg",
-
-    spotify: "https://open.spotify.com/embed/track/0Iezv7ejyN9fE101MIJ5yF?utm_source=generator",
-
-    lyrics: `You couldn't seem to find a minute
-And you never seemed to like my vision
-But I couldn't ever find
-Any reason why
-You didn't 
-
-But my gentleman wouldn’t do that to me
-My gentleman, he'd never think about leaving
-And he wouldn't change like the seasons
-Every week
-
-And yeah my gentleman, he'd be dreaming of me
-My gentleman, he’d always give me a reason
-And he'd always give me his weekends
-Wouldn't he?
-
-Then you couldn't seem to mind your business
-But what if you really took the time to listen
-But I know that
-You would never try
-And I'd be living life
-In wishes
-
-But my gentleman wouldn’t do that to me
-My gentleman, he'd never hurt me on purpose
-And he wouldn't think I deserve it
-What he means
-
-And no my gentleman wouldn't look down on me
-My gentleman, he’d think I'm something that's worth it
-And he'd wanna dive through the surface 
-Of the sea
-
-So there you are 
-A “gentleman” of great renown
-Who uses all his power
-Just to bring me down
-And they all think you're right
-But I don't know how
-You could say that out loud
-But you're saying it now
-
-So there you are again 
-Are you sorry yet?
-Your words are worth a million don't you ever forget
-And if you weren’t against me
-Then I know you’d regret
-What you did in the end
-But you did it again
-
-My gentleman wouldn't do that to me
-My gentleman, he'd never break his own
-promise
-And he wouldn't make all those comments
-You said it then
-
-And no my gentleman wouldn't let go of me
-My gentleman, he'll say I'm all that he wanted
-And he'll say it like he was honest
-Of a man
-
-But I know you’d never do that
-You wouldn't
-You wouldn't
-Like a man
-No you couldn't
-Be 
-My everything
-Like he’ll be to me
-You couldn't be`,
-
-    background: [
-
-        `I wrote this song at a point when my self-esteem was pretty low. I wanted to write about heartbreak, but I also wanted the song to hold onto the idea that I deserved something better. I sat down at the piano after class and essentially spilled my feelings into the song.`,
-
-        `Producing it later was surprisingly difficult because I kept finding the song embarrassing and cringey. Eventually, I forced myself to make the demo anyway. I used a drum loop and worked in practice rooms, improvising a microphone stand and experimenting with vocals and harmonies. I went through a lot of presets trying to find the right sound. I wanted a warm tone from the horn and flute sounds, while mallets, guitar, synth piano, and synth choir strings gave it a more orchestral feeling. I differentiated the background vocals in the choruses and used whisper-speaking toward the end. I also made my own reverb and delay presets and experimented with auto-pan, tremolo, and vibrato.`,
-
-        `While I was waiting outside Musikverein in Vienna, I recorded the clock at St. Charles's Church. I ended up using it as the intro to the song. The footsteps represent running out of time, and I chopped the clock recording into percussion for the bridge. I reversed the recording for the outro, letting the song fade back into the sound it began with.`
-    ]
-
-},
-
-    "san-something": {
-
-    track: "05 / 17",
-    next: "lemons-and-roses",
-
-    title: "San Something",
-
-    cover: "images/san-something-cover.jpg",
-
-    genre: "Pop-Rock",
-
-    written: "April 29, 2025",
-
-    vibe: "Hot summer's day",
-
-    favoriteLine: "Santa Sophia will never ever go back",
-
-    daw: "images/san-something-daw.png",
-
-    spotify: "https://open.spotify.com/embed/track/3r0jsVM2d4FUV5H6syMmr8?utm_source=generator",
-
-    lyrics: `Say what you say babe 
-The saints of the old days
-Knew what they were doing when they saw your face
-
-Say what you say babe
-You've got it made in shade of the angel city where I pray
-
-And I can't breathe
-When he's in front of me
-And I can't sleep
-When he's lying next to me
-
-He's telling me the history of the
-History of San Something
-I wasn't really listening
-‘Cause I could hear the band thumping
-Inside of the heart in me (yuh)
-
-He's telling me the history
-Oh
-He's telling me the history
-
-He's telling me the history of the 
-History of San Something
-The history of San Something
-
-Say what you say babe 
-The paintings of the old ways
-Telling you the reason
-Why I go insane 
-
-But you could be a suitor if you wanna see me cuter and you got me going crazy when you
-Say my name
-
-And I can't see
-When he's nodding to the beat (oh oh)
-And I can't be (telling him about this)
-When he's talking in his sleep
-
-He's telling me the history of the
-History of San Something
-I wasn't really listening
-‘Cause I could hear the band thumping
-Inside of the heart in me (yuh)
-
-He's telling me the history
-Oh
-He's telling me the history
-
-He's telling me the history of the 
-History of San Something
-The history of San Something
-
-Le encantó
-You're the boy I like
-Santa whatever could never ever do it like mine
-
-Le dio risa
-All the time
-Santa whatever could never ever move it like mine
-
-Stay put
-Baby I’m sat
-Santa whatever could never ever ever do it like that
-
-Facts 
-A fast 107 on the dash
-Santa Sophia will never ever go back
-
-He's telling me the history
-Ohhhh
-He's telling me the history 
-
-He's telling me the history of the
-History of San Something
-I wasn't really listening
-‘Cause I could hear the band thumping
-Inside of the heart in me
-
-He's telling me the history
-Oh
-He's telling me the history
-
-He's telling me the history of the 
-History of San Something
-The history of San Something
-His history of San Something
-He's telling me
-The history of San Something`,
-
-    background: [
-
-        `The idea for this song came from noticing how many cities in California, Texas, Spain, and elsewhere begin with “San.” San and Santa mean Saint in Spanish, so I started imagining all of these San and Santa cities as characters in a ridiculous party reality-TV drama. The mood is basically talking to someone attractive while not actually listening to anything they're saying because your mind is running at 107 miles per hour. At one point, someone was literally explaining the history of San [city] to me while I was imagining this song. I wrote “he's telling me the history of the history of San Something,” followed by “I wasn't really listening” and “band thumping inside of the heart in me.” Then I went to the practice rooms to work out the chords.`,
-
-        `A few weeks later, the verses and bridge came to me while I was zoning out during orchestra rehearsal. I started using whatever words were around me for rhymes, including sheet music and socks. I also wanted a little Spanish influence, which is where “Le encantó” and “Le dio risa” came from. Those phrases were actually inspired by the message reactions on my Samsung phone. I eventually got scolded for not paying attention, wrote during the break, and raced to the piano to figure out the melody.`,
-
-        `For the production, I was exhausted and honestly a little lazy, so I made much of it from bed with my MIDI keyboard. I picked sounds, experimented with an arpeggiator on the synth, and found dirty guitar-like sounds that fit the attitude of the song. I wanted a Latin influence in the rhythm, so I used congas and panned them into different patterns. The whole thing sits around 107 BPM, matching the energy of the song and the “107 on the dash” line.`
-    ]
-
-},
-
-    "lemons-and-roses": {
-    track: "01 / 17",
-    next: "cali",
-
-    title: "Lemons & Roses",
-
-    cover: "images/lemons-and-roses-cover-photo.jpg",
-
-    genre: "Ambient",
-
-    written: "April 1, 2025",
-
-    vibe: "Poem in the margins of your diary",
-
-    favoriteLine: "But clementine lotuses don't exist // And you know I couldn’t find it // Anything else to rhyme with // Lemons and roses",
-
-    daw: "images/lemons-and-roses-daw.png",
-
-    spotify: "https://open.spotify.com/embed/track/6sJ6VtCAN7jbwqlxRq06W2?utm_source=generator",
-
-    lyrics: `Lemon is my favorite flavor
-Roses are my favorite flower
-You could do me a favor
-On this day, at this very hour
-
-You should know our love is made of lemons and roses
-I would hope your touch is like a clementine lotus
-But clementine lotuses don't exist
-And you know I couldn’t find it
-Anything else to rhyme with
-Lemons and roses
-
-(“Lemon tree, very pretty
-And the lemon flower is sweet
-But the fruit of the poor lemon
-Is impossible to eat”)
-
-Seven is my favorite number
-Yellow is my favorite color
-Falling into my slumber
-You are my favorite cover
-
-You should know our love is made of lemons and roses
-I believe in honesty and four leaf clovers
-But I'd trade yellow for green and you see that
-Seven is so unlucky
-But you know you can trust me
-On the lemons and roses`,
-
-    background: [
-        `I first came up with the symbolism of lemons and roses in my hometown JC Penney, where I started drafting Ruthless. But I didn’t consider having it be the name of the album or having it be the title track until later when I was sitting in my dorm’s common room, thinking, what should the name of the whole thing be? I kept trying to come up with unique names that might encompass what I was going for when suddenly I thought, “hey, why not just name it Lemons & Roses?” It was so obvious that it was hidden in plain sight. Then, I took out my phone and started to write a poem, just saying the first thing that came to my mind: “lemon is my favorite flavor, roses are my favorite flower. You could do me a favor on this day at this very hour.” It had such a ring to it and I kept repeating it like a mantra.`,
-        
-        `Later, I went to the piano and I was on a zoom session but my camera was off and I was doing my own thing, when I came up with this piano loop. I recorded it and sang over it with the poem I wrote and everything started to fall into place. I started to get really clever with the wording and wanted to think outside the box with it, kind of like how a child is a little bit sneaky but otherwise innocent. I was taking a class in the Spring called Sonic Arts, where my professor, Bethany, taught everyone how to listen carefully to audio. The assignment was to make a track only out of audio that we recorded, so I picked this one. I included a bird sound, pennies from my coin jar, my fork on the cup for a bright percussive sound, a line from “Lemon Tree” by Peter, Paul, and Mary (one of my favorite groups), and more. I was really just going for a pretty sound in the time constraint that I had.` 
-
-    ]
-
-},
-        
-    "cali": {
-
-        track: "02 / 17",
-        next: "ruthless",
-
-        title: "Cali",
-
-        cover: "images/cali-cover.jpg",
-
-        genre: "Pop",
-
-        written: "February 14, 2025",
-
-        vibe: "Driving down the highway at sunset",
-
-        favoriteLine: "I'll take your California name",
-
-        daw: "images/cali-daw.png",
-
-        spotify: "https://open.spotify.com/embed/track/14m9VfKQh3mEElySDSW53L?utm_source=generator",
-
-        lyrics: `Hey
-What’s your name?
-I wanna know you for the rest of my days
-
-Wait
-Won't you stay?
-I wanna go where you were born and were raised
-
-I love my West Coast boy from the bay
-I love my West Coast boy from LA
-I wanna trace the edge of Cali with his California name
-
-And if you love me baby won't you say
-That you'll fly me out to Soho in a day
-I wanna swim in the pacific and drown in your golden gaze
-
-I want you to take me to Cali Cali babe
-Won't you take me out to Cali Cali babe
-Oh you're my Cali Cali babe
-I'll take your California name
-
-Oh Hey
-I wanna play your game
-‘Cause it's so cinematic
-Hollywood camera face
-
-Oh Hey
-Dream away boy
-
-Oh baby
-Don't blame me
-I know it sounds crazy
-With the way I'm behaving
-But I wanna just say
-
-I love my West Coast boy from the bay
-I love my West Coast boy from LA
-I wanna trace the edge of Cali with his California name
-
-And if you want me baby won't you say
-That we’ll hit it up in Tahoe in a day
-I wanna warm the city and ride on the ocean wave
-
-I want you to take me to Cali Cali babe
-Won't you take me out to Cali Cali babe
-Oh you're my Cali Cali babe
-I'll take your California name
-
-Drown in the hazy wild
-The roses were red
-The violets were blue
-And it seemed like a vision of you
-
-Down bad in that dark room
-You had me high
-High as the moon
-And it seemed you always knew
-
-I love my West Coast boy from the bay
-I love my West Coast boy from LA
-I wanna trace the edge of Cali with his California name
-
-And I hope you know it anyway
-That I'd follow you to SoCal any day
-Won't you take me dancing out in your Golden State
-
-I want you to take me to Cali Cali babe
-Won't you take me out to Cali Cali babe
-Oh you're my Cali Cali babe
-I want your California name
-
-Take me to Cali babe
-Oh take me to Cali babe
-'Cause you're my Cali babe
-It's your California name`,
-
-        background: [
-
-            `I wrote this on a snowy night after an online Gospel Choir rehearsal. My microphone was muted, so I was able to come up with melodies while everyone else was singing. It was very cold and I was feeling a bit blue so naturally, I was thinking about when I would feel the joy of warmer weather again. I wrote a fun hook earlier in class that day and connected the words and melody during the rehearsal. Then, I ran to the piano that night and started writing the chorus. Then came the bridge, and finally, the verses. I wanted the song to begin as if I was meeting someone for the first time, and “hey, what’s your name?” was the first thing that came to mind. The next morning, I tweaked some lines and the song was done. I was looking for a typical catchy pop vibe with a hint of nostalgia, like something you could play on the radio while cruising down the highway during a summer sunset. That’s why I went for a normal pop structure with lots of repetition. But of course, making sure to have some lyrical and mood nuances between the verses and the prechoruses.`,
-
-            `A year later, when I had all the words written for the other songs, I started to produce demos in Ableton. I had practice with software through my classes but it was trial by fire when it came to making my own project. I made everything in my dorm room with a mini MIDI keyboard, a condenser mic, a small Scarlet interface, and mixing headphones—all equipment that I borrowed from my school. I spent a night clicking through all the presets and highlighting sounds that I thought were most fit for what I was looking for. Once I did that, I pretty much started with the first thing I knew how to do, which was play the chords in MIDI, then record my vocals. Then the basic drum pattern came to me when I played it all back, and I recorded it in. I wanted it to have a sense of movement as if the beat was running from side to side, so I panned it left to right with the automation. For my next sound, I chose a pluck guitar and changed the stiffness setting to add texture. Next, and probably my favorite part, was adding background vocals. I wanted them to be a lower under-hum that would lift up the lead vocal. Finally, my mixing professor, Sunny, who also kindly masters my demos for me, suggested I add another element, like a bass-line. This didn’t come intuitively to me and I was crunched for time so I explored another bright guitar and used EQ to cut out certain frequencies and bring out others in order to get some radiant sounds. This was also a good way to differentiate the sounds of the same guitar preset between different sections of the song. Once everything was recorded, I mixed it, which basically meant I had it on loop and kept adjusting the gain to even out the levels, as well as adding effects.`,
-
-            `P.S. shout out to Leilani, the sweetest girl in the world, for taking this pic and letting me use it! Love you Lei.`
-
-        ]
-
-    }
-
-};
-
-const modal = document.getElementById("song-modal");
-const modalPanel = modal.querySelector(".song-modal-panel");
-const closeButton = modal.querySelector(".song-modal-close");
-const backButton = modal.querySelector(".song-modal-back");
-const homeButton = modal.querySelector(".song-modal-home");
-const nextButton = modal.querySelector(".song-modal-next-button");
-    
-let previousScrollY = 0;
-let previousFocus = null;
-
-
-function openSong(songId, trigger) {
-
-    const song = songs[songId];
-
-    if (!song) {
-        console.warn(`No song data found for "${songId}"`);
-        return;
-    }
-
-    previousScrollY = window.scrollY;
-    previousFocus = trigger;
-
-
-    // Header
-    modal.querySelector(".song-modal-title").textContent = song.title;
-
-    const nextSong = songs[song.next];
-
-if (nextSong) {
-    modal.querySelector(".song-modal-next-title").textContent = nextSong.title;
-    modal.querySelector(".song-modal-next-track").textContent = nextSong.track;
-    nextButton.style.display = "flex";
-} else {
-    nextButton.style.display = "none";
+* {
+    box-sizing: border-box;
 }
 
-    // Cover
-    const cover = modal.querySelector(".song-modal-cover");
+html {
+    scroll-behavior: smooth;
+}
 
-    cover.src = song.cover;
-    cover.alt = `${song.title} cover art`;
+body {
+    margin: 0;
+    padding: 0;
 
+    background: #f7f5f0;
+    color: #151515;
 
-    // Metadata
-    modal.querySelector(".song-modal-genre").textContent = song.genre;
+    font-family: "Inter", sans-serif;
 
-    modal.querySelector(".song-modal-written").textContent = song.written;
+    font-size: 17px;
+    line-height: 1.65;
 
-    modal.querySelector(".song-modal-vibe").textContent = song.vibe;
+    overflow-x: hidden;
+}
 
+a {
+    color: inherit;
+}
 
-    // Spotify
-    modal.querySelector(".song-modal-spotify iframe").src = song.spotify;
-
-
-    // Lyrics
-    modal.querySelector(".song-modal-lyrics").textContent = song.lyrics;
-
-
-    // Profile facts
-    modal.querySelector(".song-fact-written").textContent = song.written;
-
-    modal.querySelector(".song-fact-genre").textContent = song.genre;
-
-    modal.querySelector(".song-fact-vibe").textContent = song.vibe;
-
-    modal.querySelector(".song-fact-line").textContent =
-        `"${song.favoriteLine}"`;
-
-
-    // DAW image
-    const daw = modal.querySelector(".song-modal-daw img");
-
-    daw.src = song.daw;
-    daw.alt = `${song.title} Ableton session`;
-
-
-    // Background story
-    const story = modal.querySelector(".song-modal-story");
-
-    story.innerHTML = "";
-
-    song.background.forEach(paragraph => {
-
-        const p = document.createElement("p");
-
-        p.textContent = paragraph;
-
-        story.appendChild(p);
-
-    });
-
-
-    // Start modal at the top
-    modalPanel.scrollTop = 0;
-
-
-    // Open
-    modal.classList.add("is-open");
-
-    modal.setAttribute("aria-hidden", "false");
-
-    document.body.classList.add("song-modal-open");
-
-
-    // Put keyboard focus on close button
-    closeButton.focus();
-
+img {
+    max-width: 100%;
+    display: block;
 }
 
 
-function closeSong() {
+/* =========================================================
+   TYPOGRAPHY
+========================================================= */
 
-    modal.classList.remove("is-open");
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+}
 
-    modal.setAttribute("aria-hidden", "true");
+h1,
+h2 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+}
 
-    document.body.classList.remove("song-modal-open");
+h1 {
+    margin-bottom: 0;
+}
+
+h2 {
+    line-height: 1.05;
+}
+
+p {
+    font-weight: 300;
+}
+
+.eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+
+    margin-bottom: 28px;
+}
+
+.small-label {
+    display: block;
+
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+
+    margin-bottom: 12px;
+}
 
 
-    // Stop Spotify when closing
-    modal.querySelector(".song-modal-spotify iframe").src = "about:blank";
+/* =========================================================
+   NAVIGATION
+========================================================= */
+
+.nav {
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    right: 0;
+
+    z-index: 1000;
+
+    height: 72px;
+
+    padding: 0 42px;
+
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    background: rgba(247,245,240,.92);
+
+    backdrop-filter: blur(14px);
+
+    border-bottom: 1px solid rgba(0,0,0,.08);
+}
+
+.nav-logo {
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+    letter-spacing: .12em;
+
+    text-decoration: none;
+}
+
+.nav-links {
+
+    display: flex;
+
+    gap: 30px;
+}
+
+.nav-links a {
+
+    font-size: 12px;
+
+    text-decoration: none;
+
+    color: #555;
+
+    transition: color .2s ease;
+}
+
+.nav-links a:hover {
+
+    color: #000;
+}
 
 
-    // Return to exactly where we were
-    window.scrollTo(0, previousScrollY);
+/* =========================================================
+   HERO
+========================================================= */
+
+.hero {
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 120px 30px 80px;
+
+    background:
+
+        radial-gradient(
+            circle at 25% 35%,
+            rgba(255,222,91,.28),
+            transparent 30%
+        ),
+
+        radial-gradient(
+            circle at 75% 65%,
+            rgba(225,93,130,.18),
+            transparent 30%
+        ),
+
+        #f7f5f0;
+}
+
+.hero-content {
+
+    max-width: 1000px;
+
+    animation: heroFade 1.2s ease both;
+}
+
+.hero .eyebrow {
+
+    color: #555;
+
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+
+    font-size: clamp(90px, 15vw, 220px);
+
+    letter-spacing: -.055em;
+
+    line-height: .78;
+
+    margin-bottom: 70px;
+}
+
+.hero h1 span {
+
+    font-family: "Inter", sans-serif;
+
+    font-size: .4em;
+
+    font-weight: 300;
+
+    display: inline-block;
+
+    transform: translateY(-.12em);
+
+    margin: 0 .08em;
+}
+
+.hero-question {
+
+    font-family: "DM Serif Display", serif;
+
+    font-size: clamp(28px, 4vw, 52px);
+
+    line-height: 1.08;
+
+    margin-bottom: 65px;
+}
+
+.hero-arrow {
+
+    display: inline-flex;
+
+    width: 54px;
+    height: 54px;
+
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid #222;
+
+    border-radius: 50%;
+
+    text-decoration: none;
+
+    font-size: 22px;
+
+    transition:
+        transform .25s ease,
+        background .25s ease,
+        color .25s ease;
+}
+
+.hero-arrow:hover {
+
+    transform: translateY(5px);
+
+    background: #111;
+
+    color: white;
+}
 
 
-    // Return focus to the song card
-    if (previousFocus) {
-        previousFocus.focus();
+/* =========================================================
+   SECTIONS
+========================================================= */
+
+section {
+
+    position: relative;
+
+    padding: 140px 7vw;
+}
+
+.section-number {
+
+    position: absolute;
+
+    top: 45px;
+    left: 7vw;
+
+    font-size: 10px;
+
+    font-weight: 600;
+
+    letter-spacing: .15em;
+
+    color: #888;
+}
+
+
+/* =========================================================
+   MISSION
+========================================================= */
+
+.section-dark {
+
+    background: #181818;
+
+    color: #f7f5f0;
+}
+
+.mission {
+
+    min-height: 90vh;
+
+    display: flex;
+
+    align-items: center;
+}
+
+.mission-content {
+
+    max-width: 1050px;
+
+    margin: auto;
+}
+
+.mission .eyebrow {
+
+    color: #aaa;
+}
+
+.mission h2 {
+
+    font-size: clamp(48px, 7vw, 105px);
+
+    letter-spacing: -.03em;
+
+    max-width: 1100px;
+
+    margin-bottom: 65px;
+}
+
+.signature {
+
+    font-family: "DM Serif Display", serif;
+
+    font-size: 24px;
+
+    line-height: 1.3;
+
+    color: #ccc;
+}
+
+.signature strong {
+
+    color: #fff;
+
+    font-weight: 400;
+}
+
+
+/* =========================================================
+   PITCH
+========================================================= */
+
+.pitch {
+
+    background: #f7f5f0;
+}
+
+.pitch-grid {
+
+    max-width: 1200px;
+
+    margin: 0 auto 100px;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 100px;
+}
+
+.pitch-heading h2 {
+
+    font-size: clamp(55px, 6vw, 90px);
+
+    margin-bottom: 0;
+}
+
+.pitch-copy {
+
+    max-width: 620px;
+}
+
+.pitch-copy p {
+
+    font-size: 19px;
+
+    margin-bottom: 28px;
+}
+
+.pitch-copy strong {
+
+    font-weight: 600;
+}
+
+
+/* =========================================================
+   VIDEO
+========================================================= */
+
+.video-container {
+
+    max-width: 1200px;
+
+    margin: 0 auto;
+}
+
+.video-placeholder {
+
+    aspect-ratio: 16 / 9;
+
+    background: #e5e0d7;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    border: 1px solid rgba(0,0,0,.08);
+}
+
+.play-circle {
+
+    width: 82px;
+    height: 82px;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    background: #111;
+
+    color: white;
+
+    padding-left: 4px;
+
+    margin-bottom: 25px;
+
+    font-size: 20px;
+}
+
+.video-placeholder p {
+
+    font-size: 12px;
+
+    letter-spacing: .15em;
+
+    font-weight: 600;
+
+    margin-bottom: 8px;
+}
+
+.video-placeholder span {
+
+    font-size: 13px;
+
+    color: #777;
+}
+
+
+/* =========================================================
+   MUSIC
+========================================================= */
+
+.music-section {
+
+    background: #e9e3d8;
+}
+
+.section-header {
+
+    max-width: 1200px;
+
+    margin: 0 auto 65px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: end;
+
+    gap: 40px;
+}
+
+.section-header h2 {
+
+    font-size: clamp(60px, 7vw, 105px);
+
+    margin-bottom: 0;
+}
+
+.section-intro {
+
+    max-width: 260px;
+
+    font-size: 16px;
+
+    color: #555;
+}
+
+
+/* =========================================================
+   SPOTIFY
+========================================================= */
+
+.spotify-feature {
+
+    max-width: 1200px;
+
+    margin: 0 auto 75px;
+
+    display: grid;
+
+    grid-template-columns: .6fr 1.4fr;
+
+    background: #f7f5f0;
+}
+
+.spotify-heading {
+
+    padding: 55px;
+}
+
+.spotify-heading h3 {
+
+    font-family: "DM Serif Display", serif;
+
+    font-size: 48px;
+
+    font-weight: 400;
+
+    line-height: 1;
+
+    margin-bottom: 12px;
+}
+
+.spotify-heading p {
+
+    color: #666;
+}
+
+.spotify-feature iframe {
+
+    display: block;
+
+    width: 100%;
+
+    min-height: 380px;
+
+    border-radius: 0;
+}
+
+
+/* =========================================================
+   SONG GALLERY
+========================================================= */
+
+.song-gallery {
+
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 22px;
+}
+
+.song-card {
+
+    position: relative;
+
+    min-height: 420px;
+
+    overflow: hidden;
+
+    text-decoration: none;
+
+    background: #111;
+}
+
+.song-card img {
+
+    width: 100%;
+    height: 100%;
+
+    min-height: 420px;
+
+    object-fit: cover;
+
+    transition: transform .7s ease;
+}
+
+.song-card:hover img {
+
+    transform: scale(1.06);
+}
+
+.song-card-info {
+
+    position: absolute;
+
+    inset: 0;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: flex-end;
+
+    padding: 30px;
+
+    color: white;
+
+    background:
+        linear-gradient(
+            to top,
+            rgba(0,0,0,.75),
+            rgba(0,0,0,.08) 65%,
+            transparent
+        );
+}
+
+.song-card-info span {
+
+    font-size: 10px;
+
+    letter-spacing: .15em;
+
+    margin-bottom: 10px;
+}
+
+.song-card-info h3 {
+
+    font-family: "DM Serif Display", serif;
+
+    font-size: 39px;
+
+    font-weight: 400;
+
+    line-height: 1;
+
+    margin-bottom: 10px;
+}
+
+.song-card-info p {
+
+    font-size: 10px;
+
+    letter-spacing: .15em;
+
+    margin: 0;
+
+    color: rgba(255,255,255,.8);
+}
+
+
+/* =========================================================
+   COMING SOON
+========================================================= */
+
+.coming-soon-card {
+
+    min-height: 420px;
+
+    padding: 40px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    background: #181818;
+
+    color: white;
+}
+
+.coming-soon-card div {
+
+    max-width: 250px;
+}
+
+.coming-soon-card span {
+
+    font-size: 11px;
+
+    letter-spacing: .15em;
+
+    color: #999;
+}
+
+.coming-soon-card h3 {
+
+    font-family: "DM Serif Display", serif;
+
+    font-size: 38px;
+
+    font-weight: 400;
+
+    line-height: 1;
+
+    margin: 18px 0;
+}
+
+.coming-soon-card p {
+
+    color: #aaa;
+
+    font-size: 14px;
+}
+
+.center-button {
+
+    text-align: center;
+
+    margin-top: 65px;
+}
+
+.outline-button {
+
+    display: inline-block;
+
+    padding: 15px 25px;
+
+    border: 1px solid #222;
+
+    text-decoration: none;
+
+    font-size: 11px;
+
+    font-weight: 600;
+
+    letter-spacing: .12em;
+
+    transition:
+        background .2s ease,
+        color .2s ease;
+}
+
+.outline-button:hover {
+
+    background: #111;
+
+    color: white;
+}
+
+
+/* =========================================================
+   WORLD
+========================================================= */
+
+.world-section {
+
+    background: #f7f5f0;
+}
+
+.world-intro {
+
+    max-width: 1000px;
+
+    margin: 0 auto 100px;
+
+    text-align: center;
+}
+
+.world-intro h2 {
+
+    font-size: clamp(65px, 8vw, 125px);
+
+    margin-bottom: 25px;
+}
+
+.world-intro > p:last-child {
+
+    font-family: "DM Serif Display", serif;
+
+    font-size: 28px;
+
+    color: #666;
+}
+
+.symbols {
+
+    max-width: 1200px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 1px;
+
+    background: #ccc;
+
+    border: 1px solid #ccc;
+}
+
+.symbol {
+
+    background: #f7f5f0;
+
+    padding: 55px 40px;
+
+    min-height: 300px;
+}
+
+.symbol-icon {
+
+    font-size: 55px;
+
+    margin-bottom: 25px;
+}
+
+.symbol h3 {
+
+    font-size: 12px;
+
+    letter-spacing: .15em;
+
+    font-weight: 600;
+
+    margin-bottom: 15px;
+}
+
+.symbol p {
+
+    font-size: 15px;
+
+    color: #666;
+
+    max-width: 280px;
+}
+
+.world-statement {
+
+    max-width: 850px;
+
+    margin: 120px auto 0;
+
+    text-align: center;
+}
+
+.world-statement p {
+
+    font-family: "DM Serif Display", serif;
+
+    font-size: clamp(32px, 4vw, 55px);
+
+    line-height: 1.15;
+}
+
+
+/* =========================================================
+   ARTIST
+========================================================= */
+
+.artist-section {
+
+    background: #ddd4c6;
+}
+
+.artist-grid {
+
+    max-width: 1200px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 100px;
+
+    margin-bottom: 100px;
+}
+
+.artist-title h2 {
+
+    font-size: clamp(70px, 8vw, 125px);
+
+    margin-bottom: 20px;
+}
+
+.artist-subtitle {
+
+    font-size: 13px;
+
+    letter-spacing: .08em;
+
+    text-transform: uppercase;
+}
+
+.artist-copy {
+
+    max-width: 550px;
+
+    padding-top: 60px;
+}
+
+.artist-copy p {
+
+    font-size: 19px;
+
+    margin-bottom: 30px;
+}
+
+.artist-pillars {
+
+    max-width: 1200px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    border-top: 1px solid rgba(0,0,0,.2);
+}
+
+.pillar {
+
+    padding: 35px 25px;
+
+    border-right: 1px solid rgba(0,0,0,.2);
+}
+
+.pillar:last-child {
+
+    border-right: none;
+}
+
+.pillar span {
+
+    font-size: 10px;
+
+    color: #777;
+}
+
+.pillar h3 {
+
+    font-size: 12px;
+
+    letter-spacing: .13em;
+
+    margin: 30px 0 15px;
+}
+
+.pillar p {
+
+    font-size: 13px;
+
+    color: #555;
+}
+
+
+/* =========================================================
+   AUDIENCE
+========================================================= */
+
+.audience-section {
+
+    background: #f7f5f0;
+}
+
+.audience-header {
+
+    max-width: 1200px;
+
+    margin: 0 auto 75px;
+}
+
+.audience-header h2 {
+
+    font-size: clamp(70px, 8vw, 125px);
+
+    margin-bottom: 0;
+}
+
+.audience-grid {
+
+    max-width: 1200px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 20px;
+}
+
+.audience-block {
+
+    min-height: 480px;
+
+    padding: 45px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+}
+
+.audience-block.core {
+
+    background: #e5d98c;
+}
+
+.audience-block.music {
+
+    background: #ded0d0;
+}
+
+.audience-block.emotional {
+
+    background: #d5ddd2;
+}
+
+.audience-block > span {
+
+    font-size: 10px;
+
+    letter-spacing: .15em;
+
+    font-weight: 600;
+}
+
+.audience-block h3 {
+
+    font-family: "DM Serif Display", serif;
+
+    font-size: 45px;
+
+    font-weight: 400;
+
+    line-height: 1;
+
+    max-width: 320px;
+}
+
+.audience-block ul {
+
+    padding: 0;
+
+    margin: 0;
+
+    list-style: none;
+}
+
+.audience-block li {
+
+    border-top: 1px solid rgba(0,0,0,.18);
+
+    padding: 10px 0;
+
+    font-size: 14px;
+}
+
+
+/* =========================================================
+   ENGINE
+========================================================= */
+
+.engine-section {
+
+    background: #171717;
+
+    color: #f7f5f0;
+
+    text-align: center;
+}
+
+.engine-header {
+
+    max-width: 850px;
+
+    margin: 0 auto 90px;
+}
+
+.engine-header .eyebrow {
+
+    color: #999;
+}
+
+.engine-header h2 {
+
+    font-size: clamp(60px, 7vw, 105px);
+
+    margin-bottom: 30px;
+}
+
+.engine-header p {
+
+    color: #aaa;
+
+    font-size: 18px;
+}
+
+.engine-flow {
+
+    max-width: 1200px;
+
+    margin: auto;
+
+    display: flex;
+
+    align-items: stretch;
+}
+
+.engine-step {
+
+    flex: 1;
+
+    padding: 30px 20px;
+
+    border: 1px solid #444;
+
+    min-height: 250px;
+}
+
+.engine-step span {
+
+    font-size: 10px;
+
+    color: #777;
+}
+
+.engine-step h3 {
+
+    font-size: 12px;
+
+    letter-spacing: .15em;
+
+    margin: 45px 0 20px;
+}
+
+.engine-step p {
+
+    font-size: 13px;
+
+    color: #aaa;
+}
+
+.engine-arrow {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    width: 35px;
+
+    color: #666;
+}
+
+
+/* =========================================================
+   BUSINESS
+========================================================= */
+
+.business-section {
+
+    background: #ebe7df;
+}
+
+.business-header {
+
+    max-width: 1000px;
+
+    margin: 0 auto 80px;
+
+    text-align: center;
+}
+
+.business-header h2 {
+
+    font-size: clamp(65px, 8vw, 115px);
+
+    margin-bottom: 30px;
+}
+
+.business-header > p:last-child {
+
+    max-width: 600px;
+
+    margin: auto;
+
+    color: #666;
+
+    font-size: 17px;
+}
+
+.business-grid {
+
+    max-width: 1200px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 1px;
+
+    background: #aaa;
+}
+
+.business-card {
+
+    background: #ebe7df;
+
+    padding: 55px;
+
+    min-height: 280px;
+}
+
+.business-card > span {
+
+    font-size: 10px;
+
+    font-weight: 600;
+
+    letter-spacing: .15em;
+
+    color: #777;
+}
+
+.business-card h3 {
+
+    font-family: "DM Serif Display", serif;
+
+    font-size: 42px;
+
+    font-weight: 400;
+
+    margin: 35px 0 20px;
+
+    line-height: 1;
+}
+
+.business-card p {
+
+    max-width: 450px;
+
+    font-size: 15px;
+
+    color: #555;
+}
+
+
+/* =========================================================
+   SOCIAL
+========================================================= */
+
+.social-section {
+
+    background: #f7f5f0;
+}
+
+.social-header {
+
+    max-width: 850px;
+
+    margin: 0 auto 80px;
+
+    text-align: center;
+}
+
+.social-header h2 {
+
+    font-size: clamp(65px, 8vw, 115px);
+
+    margin-bottom: 30px;
+}
+
+.social-header > p:last-child {
+
+    color: #666;
+
+    font-size: 18px;
+}
+
+.social-grid {
+
+    max-width: 1200px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 20px;
+}
+
+.social-card {
+
+    min-height: 340px;
+
+    padding: 40px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+
+    background: white;
+
+    border: 1px solid #ddd;
+
+    text-decoration: none;
+
+    transition:
+        transform .25s ease,
+        background .25s ease;
+}
+
+.social-card:hover {
+
+    transform: translateY(-6px);
+
+    background: #eeeae2;
+}
+
+.social-card > span {
+
+    font-size: 10px;
+
+    letter-spacing: .15em;
+
+    font-weight: 600;
+}
+
+.social-card h3 {
+
+    font-family: "DM Serif Display", serif;
+
+    font-size: 42px;
+
+    font-weight: 400;
+
+    line-height: 1;
+}
+
+.social-card p {
+
+    color: #666;
+
+    font-size: 14px;
+}
+
+
+/* =========================================================
+   FUTURE
+========================================================= */
+
+.future-section {
+
+    background: #d7ddd2;
+}
+
+.future-header {
+
+    max-width: 900px;
+
+    margin: auto;
+
+    text-align: center;
+}
+
+.future-header h2 {
+
+    font-size: clamp(70px, 9vw, 130px);
+
+    margin-bottom: 100px;
+}
+
+.future-map {
+
+    max-width: 1200px;
+
+    margin: auto;
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 18px;
+}
+
+.future-map div {
+
+    padding: 18px 22px;
+
+    border: 1px solid rgba(0,0,0,.3);
+
+    background: rgba(255,255,255,.18);
+
+    font-size: 11px;
+
+    font-weight: 600;
+
+    letter-spacing: .08em;
+}
+
+.future-map span {
+
+    color: #777;
+}
+
+.future-statement {
+
+    max-width: 800px;
+
+    margin: 100px auto 0;
+
+    text-align: center;
+}
+
+.future-statement p {
+
+    font-family: "DM Serif Display", serif;
+
+    font-size: clamp(32px, 4vw, 52px);
+
+    line-height: 1.15;
+}
+
+
+/* =========================================================
+   PARTNER
+========================================================= */
+
+.partner-section {
+
+    min-height: 90vh;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    background: #181818;
+
+    color: #f7f5f0;
+}
+
+.partner-content {
+
+    max-width: 1000px;
+}
+
+.partner-content .eyebrow {
+
+    color: #999;
+}
+
+.partner-content h2 {
+
+    font-size: clamp(80px, 11vw, 160px);
+
+    line-height: .85;
+
+    letter-spacing: -.04em;
+
+    margin-bottom: 60px;
+}
+
+.partner-content p {
+
+    font-size: 20px;
+
+    color: #bbb;
+
+    margin-bottom: 30px;
+}
+
+.partner-button {
+
+    display: inline-block;
+
+    margin-top: 35px;
+
+    padding: 18px 30px;
+
+    border: 1px solid #777;
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 11px;
+
+    letter-spacing: .15em;
+
+    font-weight: 600;
+
+    transition:
+        background .25s ease,
+        color .25s ease;
+}
+
+.partner-button:hover {
+
+    background: white;
+
+    color: #111;
+}
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+footer {
+
+    padding: 60px 7vw;
+
+    background: #111;
+
+    color: white;
+
+    text-align: center;
+}
+
+.footer-name {
+
+    font-family: "DM Serif Display", serif;
+
+    font-size: 38px;
+
+    margin-bottom: 30px;
+}
+
+.footer-links {
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 25px;
+
+    margin-bottom: 30px;
+}
+
+.footer-links a {
+
+    font-size: 12px;
+
+    color: #aaa;
+
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+
+    color: white;
+}
+
+.footer-copy {
+
+    font-size: 11px;
+
+    color: #666;
+}
+
+
+/* =========================================================
+   ANIMATION
+========================================================= */
+
+@keyframes heroFade {
+
+    from {
+
+        opacity: 0;
+
+        transform: translateY(20px);
+
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform: translateY(0);
+
     }
 
 }
 
 
-// Open song when card is clicked
-document.querySelectorAll(".song-card[data-song]").forEach(card => {
+/* =========================================================
+   TABLET
+========================================================= */
 
-    card.addEventListener("click", () => {
+@media (max-width: 900px) {
 
-        openSong(card.dataset.song, card);
+    .nav {
 
-    });
-
-});
-
-
-// Close button
-closeButton.addEventListener("click", closeSong);
-
-backButton.addEventListener("click", closeSong);
-homeButton.addEventListener("click", closeSong);
-nextButton.addEventListener("click", () => {
-    const currentSong = Object.keys(songs).find(
-        songId => songs[songId].title === modal.querySelector(".song-modal-title").textContent
-    );
-
-    const nextSongId = songs[currentSong]?.next;
-
-    if (nextSongId) {
-        openSong(nextSongId, nextButton);
-    }
-});
-
-// Click outside the content
-modal.querySelector(".song-modal-backdrop")
-    .addEventListener("click", closeSong);
-
-
-// Escape key
-document.addEventListener("keydown", event => {
-
-    if (
-        event.key === "Escape" &&
-        modal.classList.contains("is-open")
-    ) {
-
-        closeSong();
-
+        padding: 0 25px;
     }
 
-});
-</script>
+    .nav-links {
+
+        gap: 15px;
+    }
+
+    .pitch-grid,
+    .artist-grid {
+
+        grid-template-columns: 1fr;
+
+        gap: 50px;
+    }
+
+    .artist-copy {
+
+        padding-top: 0;
+    }
+
+    .symbols {
+
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .artist-pillars {
+
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .pillar:nth-child(2) {
+
+        border-right: none;
+    }
+
+    .audience-grid,
+    .social-grid {
+
+        grid-template-columns: 1fr;
+    }
+
+    .audience-block {
+
+        min-height: 400px;
+    }
+
+    .engine-flow {
+
+        flex-direction: column;
+    }
+
+    .engine-step {
+
+        min-height: auto;
+
+        padding: 40px;
+    }
+
+    .engine-arrow {
+
+        width: 100%;
+
+        height: 30px;
+
+        transform: rotate(90deg);
+    }
+
+}
+
+/* ---------------------------------------------------------
+   MODAL NAVIGATION
+   --------------------------------------------------------- */
+
+.song-modal-back,
+.song-modal-home {
+    border: 0;
+    padding: 0;
+
+    background: none;
+    color: #151515;
+
+    font-family: Inter, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+
+    cursor: pointer;
+
+    transition: opacity 0.25s ease;
+}
+
+.song-modal-back {
+    opacity: 0.6;
+}
+
+.song-modal-back:hover,
+.song-modal-home:hover {
+    opacity: 0.45;
+}
+
+.song-modal-home {
+    text-decoration: none;
+}
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+
+    body {
+
+        font-size: 16px;
+    }
+
+    .nav {
+
+        height: 62px;
+
+        padding: 0 18px;
+    }
+
+    .nav-links a {
+
+        display: none;
+    }
+
+    section {
+
+        padding: 110px 22px;
+    }
+
+    .section-number {
+
+        top: 30px;
+
+        left: 22px;
+    }
+
+    .hero {
+
+        padding: 100px 20px 60px;
+    }
+
+    .hero h1 {
+
+        font-size: 21vw;
+
+        line-height: .82;
+
+        margin-bottom: 50px;
+    }
+
+    .hero-question {
+
+        font-size: 31px;
+    }
+
+    .mission {
+
+        min-height: 75vh;
+    }
+
+    .mission h2 {
+
+        font-size: 47px;
+    }
+
+    .pitch-copy p {
+
+        font-size: 17px;
+    }
+
+    .spotify-feature {
+
+        grid-template-columns: 1fr;
+    }
+
+    .spotify-heading {
+
+        padding: 35px;
+    }
+
+    .spotify-heading h3 {
+
+        font-size: 38px;
+    }
+
+    .song-gallery {
+
+        grid-template-columns: 1fr;
+
+        gap: 18px;
+    }
+
+    .song-card,
+    .song-card img,
+    .coming-soon-card {
+
+        min-height: 380px;
+    }
+
+    .symbols {
+
+        grid-template-columns: 1fr;
+    }
+
+    .symbol {
+
+        min-height: auto;
+    }
+
+    .artist-pillars {
+
+        grid-template-columns: 1fr;
+    }
+
+    .pillar {
+
+        border-right: none;
+
+        border-bottom: 1px solid rgba(0,0,0,.2);
+    }
+
+    .pillar:last-child {
+
+        border-bottom: none;
+    }
+
+    .audience-block {
+
+        min-height: 350px;
+
+        padding: 32px;
+    }
+
+    .audience-block h3 {
+
+        font-size: 38px;
+    }
+
+    .business-grid {
+
+        grid-template-columns: 1fr;
+    }
+
+    .business-card {
+
+        padding: 35px;
+    }
+
+    .social-card {
+
+        min-height: 280px;
+    }
+
+    .future-map {
+
+        flex-direction: column;
+    }
+
+    .future-map span {
+
+        transform: rotate(90deg);
+    }
+
+    .partner-content h2 {
+
+        font-size: 22vw;
+    }
+
+    .footer-links {
+
+        gap: 18px;
+    }
+
+}
+
+/* =========================================================
+   SONG PROFILE MODAL
+   ========================================================= */
+
+body.song-modal-open {
+    overflow: hidden;
+}
 
 
-</body>
-</html>
+/* Make song cards behave properly as buttons */
+
+.song-card {
+    border: 0;
+    padding: 0;
+    width: 100%;
+    text-align: left;
+    font: inherit;
+    cursor: pointer;
+}
+
+
+/* ---------------------------------------------------------
+   MODAL CONTAINER
+   --------------------------------------------------------- */
+
+.song-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 2000;
+
+    background: #f7f5f0;
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+    transition:
+        opacity 0.35s ease,
+        visibility 0.35s ease;
+}
+
+.song-modal.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+
+/* ---------------------------------------------------------
+   SCROLLING PANEL
+   --------------------------------------------------------- */
+
+.song-modal-panel {
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+
+    overflow-y: auto;
+    overscroll-behavior: contain;
+
+    scroll-behavior: smooth;
+}
+
+
+/* ---------------------------------------------------------
+   BACKDROP
+   --------------------------------------------------------- */
+
+.song-modal-backdrop {
+    position: fixed;
+    inset: 0;
+
+    background: #f7f5f0;
+}
+
+
+/* ---------------------------------------------------------
+   CLOSE BUTTON
+   --------------------------------------------------------- */
+
+.song-modal-close {
+    position: fixed;
+
+    top: 24px;
+    right: 32px;
+
+    z-index: 20;
+
+    width: 50px;
+    height: 50px;
+
+    border: 1px solid rgba(21, 21, 21, 0.25);
+    border-radius: 50%;
+
+    background: rgba(247, 245, 240, 0.92);
+    color: #151515;
+
+    font-family: Inter, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1;
+
+    cursor: pointer;
+
+    transition:
+        background 0.25s ease,
+        color 0.25s ease,
+        transform 0.25s ease;
+}
+
+.song-modal-close:hover {
+    background: #151515;
+    color: #f7f5f0;
+    transform: rotate(90deg);
+}
+
+
+/* ---------------------------------------------------------
+   MAIN CONTENT
+   --------------------------------------------------------- */
+
+.song-modal-inner {
+    position: relative;
+
+    max-width: 1250px;
+    margin: 0 auto;
+
+    padding: 40px 7vw 90px;
+}
+
+
+/* ---------------------------------------------------------
+   HEADER
+   --------------------------------------------------------- */
+
+.song-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-bottom: 25px;
+
+    border-bottom: 1px solid rgba(21, 21, 21, 0.18);
+
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+}
+
+.song-modal-track {
+    opacity: 0.55;
+}
+
+
+/* ---------------------------------------------------------
+   SONG TITLE
+   --------------------------------------------------------- */
+
+.song-modal-title-section {
+    padding: 45px 0 55px;
+}
+
+.song-modal-title {
+    margin: 0;
+
+    max-width: 1100px;
+
+    font-family: "DM Serif Display", serif;
+    font-size: clamp(72px, 12vw, 175px);
+    font-weight: 400;
+    line-height: 0.84;
+    letter-spacing: -0.045em;
+}
+
+
+/* ---------------------------------------------------------
+   HERO
+   --------------------------------------------------------- */
+
+.song-modal-hero {
+    display: grid;
+
+    grid-template-columns:
+        minmax(0, 1.2fr)
+        minmax(280px, 0.8fr);
+
+    gap: 55px;
+
+    align-items: end;
+}
+
+
+/* Cover */
+
+.song-modal-cover {
+    display: block;
+
+    width: 100%;
+    aspect-ratio: 1 / 1;
+
+    object-fit: cover;
+}
+
+
+/* Metadata */
+
+.song-modal-meta {
+    display: flex;
+    flex-direction: column;
+
+    gap: 28px;
+
+    padding-bottom: 5px;
+}
+
+.song-modal-meta-item span,
+.song-fact span {
+    display: block;
+
+    margin-bottom: 10px;
+
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+}
+
+.song-modal-meta-item p {
+    margin: 0;
+
+    font-family: "DM Serif Display", serif;
+    font-size: clamp(27px, 3vw, 42px);
+    line-height: 1.05;
+}
+
+
+/* ---------------------------------------------------------
+   SECTIONS
+   --------------------------------------------------------- */
+
+.song-modal-section {
+    margin-top: 75px;
+
+    padding-top: 32px;
+
+    border-top: 1px solid rgba(21, 21, 21, 0.18);
+}
+
+.song-modal-section-heading {
+    display: flex;
+    align-items: baseline;
+
+    gap: 22px;
+
+    margin-bottom: 30px;
+}
+
+.song-modal-section-heading > span {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+
+    opacity: 0.55;
+}
+
+.song-modal-section-heading h3 {
+    margin: 0;
+
+    font-family: "DM Serif Display", serif;
+    font-size: clamp(38px, 5vw, 64px);
+    font-weight: 400;
+
+    line-height: 1;
+}
+
+
+/* ---------------------------------------------------------
+   SPOTIFY
+   --------------------------------------------------------- */
+
+.song-modal-spotify iframe {
+    display: block;
+
+    width: 100%;
+    min-height: 352px;
+
+    border: 0;
+    border-radius: 12px;
+}
+
+
+/* ---------------------------------------------------------
+   LYRICS
+   --------------------------------------------------------- */
+
+.song-modal-lyrics {
+    max-width: 900px;
+
+    white-space: pre-line;
+
+    font-family: "DM Serif Display", serif;
+    font-size: clamp(21px, 2.1vw, 31px);
+
+    line-height: 1.55;
+}
+
+
+/* ---------------------------------------------------------
+   PROFILE
+   --------------------------------------------------------- */
+
+.song-modal-profile-grid {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 40px;
+}
+
+
+/* Facts */
+
+.song-modal-facts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 48px;
+
+    background: #ebe7df;
+}
+
+.song-fact {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+
+    border-bottom: 1px solid rgba(21, 21, 21, 0.16);
+}
+
+.song-fact:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+    border-bottom: 0;
+}
+
+.song-fact p {
+    margin: 0;
+
+    font-family: "DM Serif Display", serif;
+    font-size: 25px;
+
+    line-height: 1.2;
+}
+
+
+/* DAW */
+
+.song-modal-daw {
+    overflow: hidden;
+}
+
+.song-modal-daw img {
+    display: block;
+
+    width: 100%;
+
+    border: 1px solid rgba(21, 21, 21, 0.12);
+}
+
+
+/* ---------------------------------------------------------
+   MAKING OF
+   --------------------------------------------------------- */
+
+.song-modal-story {
+    max-width: 900px;
+}
+
+.song-modal-story p {
+    margin: 0 0 38px;
+
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.song-modal-story p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* ---------------------------------------------------------
+   END
+   --------------------------------------------------------- */
+
+.song-modal-end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 25px;
+
+    padding-top: 55px;
+
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+}
+
+.song-modal-end span:last-child {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 800px) {
+
+    .song-modal-inner {
+        padding: 35px 6vw 90px;
+    }
+
+    .song-modal-close {
+        top: 16px;
+        right: 16px;
+
+        width: 44px;
+        height: 44px;
+
+        font-size: 26px;
+    }
+
+    .song-modal-header {
+        padding-right: 60px;
+    }
+
+    .song-modal-title-section {
+        padding: 55px 0 60px;
+    }
+
+    .song-modal-title {
+        font-size: clamp(58px, 17vw, 100px);
+        line-height: 0.88;
+    }
+
+    .song-modal-hero {
+        grid-template-columns: 1fr;
+        gap: 45px;
+    }
+
+    .song-modal-meta {
+        gap: 28px;
+    }
+
+    .song-modal-meta-item p {
+        font-size: 32px;
+    }
+
+    .song-modal-section {
+        margin-top: 80px;
+        padding-top: 32px;
+    }
+
+    .song-modal-section-heading {
+        gap: 14px;
+        margin-bottom: 30px;
+    }
+
+    .song-modal-section-heading h3 {
+        font-size: 42px;
+    }
+
+    .song-modal-spotify iframe {
+        min-height: 352px;
+    }
+
+    .song-modal-profile-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .song-modal-facts {
+        padding: 32px;
+    }
+
+    .song-modal-story p {
+        font-size: 17px;
+        line-height: 1.7;
+    }
+
+    .song-modal-end {
+        padding-top: 75px;
+    }
+}
+
+
+/* ---------------------------------------------------------
+   SMALL PHONES
+   --------------------------------------------------------- */
+
+@media (max-width: 500px) {
+
+    .song-modal-inner {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    .song-modal-title {
+        font-size: 17vw;
+    }
+
+    .song-modal-lyrics {
+        font-size: 21px;
+    }
+
+    .song-modal-facts {
+        padding: 25px;
+    }
+}
+
+
