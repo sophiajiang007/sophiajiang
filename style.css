@@ -1712,7 +1712,40 @@ footer {
 
 }
 
+/* ---------------------------------------------------------
+   MODAL NAVIGATION
+   --------------------------------------------------------- */
 
+.song-modal-back,
+.song-modal-home {
+    border: 0;
+    padding: 0;
+
+    background: none;
+    color: #151515;
+
+    font-family: Inter, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+
+    cursor: pointer;
+
+    transition: opacity 0.25s ease;
+}
+
+.song-modal-back {
+    opacity: 0.6;
+}
+
+.song-modal-back:hover,
+.song-modal-home:hover {
+    opacity: 0.45;
+}
+
+.song-modal-home {
+    text-decoration: none;
+}
 /* =========================================================
    MOBILE
 ========================================================= */
