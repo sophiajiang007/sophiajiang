@@ -942,14 +942,26 @@ section {
 
 .artist-photo {
     position: absolute;
-    top: 180px;
-    right: 6vw;
-    width: 32vw;
-    max-width: 500px;
-    height: 560px;
+    top: 0;
+    right: 0;
+    width: 52%;
+    height: 720px;
     overflow: hidden;
     z-index: 0;
     pointer-events: none;
+
+    -webkit-mask-image: radial-gradient(
+        ellipse 75% 75% at 65% 50%,
+        black 35%,
+        rgba(0, 0, 0, 0.85) 55%,
+        transparent 100%
+    );
+    mask-image: radial-gradient(
+        ellipse 75% 75% at 65% 50%,
+        black 35%,
+        rgba(0, 0, 0, 0.85) 55%,
+        transparent 100%
+    );
 }
 
 .artist-photo img {
@@ -957,45 +969,8 @@ section {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: center 42%;
-    
-    opacity: 0.78;
-
-    -webkit-mask-image:
-        linear-gradient(
-            to bottom,
-            transparent 0%,
-            black 10%,
-            black 88%,
-            transparent 100%
-        ),
-        linear-gradient(
-            to right,
-            transparent 0%,
-            black 12%,
-            black 88%,
-            transparent 100%
-        );
-
-    -webkit-mask-composite: intersect;
-
-    mask-image:
-        linear-gradient(
-            to bottom,
-            transparent 0%,
-            black 10%,
-            black 88%,
-            transparent 100%
-        ),
-        linear-gradient(
-            to right,
-            transparent 0%,
-            black 12%,
-            black 88%,
-            transparent 100%
-        );
-
-    mask-composite: intersect;
+    object-position: center 40%;
+    opacity: 0.72;
 }
 .artist-pillars {
 
