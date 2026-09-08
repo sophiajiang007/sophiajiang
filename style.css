@@ -2704,9 +2704,9 @@ body.song-modal-open {
     height: 100%;
 
     object-fit: cover;
-    object-position: center 82%;
+    object-position: 68% 45%;
 
-    transform: scale(1.15);
+    transform: scale(1.5);
 }
 
 /* =========================================
@@ -2777,6 +2777,7 @@ body.song-modal-open {
     }
 
     .artist-photo img {
-        transform: scale(1.1);
+        transform: scale(1.25);
+        object-position: 68% 45%;
     }
 }
