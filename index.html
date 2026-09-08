@@ -362,8 +362,6 @@
 
 </div>
 
-        </a>
-
 
         <div class="song-card coming-soon-card">
 
@@ -1492,7 +1490,167 @@ It's your California name`,
 
 };
 
+const modal = document.getElementById("song-modal");
+const modalPanel = modal.querySelector(".song-modal-panel");
+const closeButton = modal.querySelector(".song-modal-close");
 
+let previousScrollY = 0;
+let previousFocus = null;
+
+
+function openSong(songId, trigger) {
+
+    const song = songs[songId];
+
+    if (!song) {
+        console.warn(`No song data found for "${songId}"`);
+        return;
+    }
+
+    previousScrollY = window.scrollY;
+    previousFocus = trigger;
+
+
+    // Header
+    modal.querySelector(".song-modal-track").textContent = song.track;
+
+    modal.querySelector(".song-modal-title").textContent = song.title;
+
+
+    // Cover
+    const cover = modal.querySelector(".song-modal-cover");
+
+    cover.src = song.cover;
+    cover.alt = `${song.title} cover art`;
+
+
+    // Metadata
+    modal.querySelector(".song-modal-genre").textContent = song.genre;
+
+    modal.querySelector(".song-modal-written").textContent = song.written;
+
+    modal.querySelector(".song-modal-vibe").textContent = song.vibe;
+
+
+    // Spotify
+    modal.querySelector(".song-modal-spotify iframe").src = song.spotify;
+
+
+    // Lyrics
+    modal.querySelector(".song-modal-lyrics").textContent = song.lyrics;
+
+
+    // Profile facts
+    modal.querySelector(".song-fact-written").textContent = song.written;
+
+    modal.querySelector(".song-fact-genre").textContent = song.genre;
+
+    modal.querySelector(".song-fact-vibe").textContent = song.vibe;
+
+    modal.querySelector(".song-fact-line").textContent =
+        `"${song.favoriteLine}"`;
+
+
+    // DAW image
+    const daw = modal.querySelector(".song-modal-daw img");
+
+    daw.src = song.daw;
+    daw.alt = `${song.title} Ableton session`;
+
+
+    // Background story
+    const story = modal.querySelector(".song-modal-story");
+
+    story.innerHTML = "";
+
+    song.background.forEach(paragraph => {
+
+        const p = document.createElement("p");
+
+        p.textContent = paragraph;
+
+        story.appendChild(p);
+
+    });
+
+
+    // Start modal at the top
+    modalPanel.scrollTop = 0;
+
+
+    // Open
+    modal.classList.add("is-open");
+
+    modal.setAttribute("aria-hidden", "false");
+
+    document.body.classList.add("song-modal-open");
+
+
+    // Put keyboard focus on close button
+    closeButton.focus();
+
+}
+
+
+function closeSong() {
+
+    modal.classList.remove("is-open");
+
+    modal.setAttribute("aria-hidden", "true");
+
+    document.body.classList.remove("song-modal-open");
+
+
+    // Stop Spotify when closing
+    modal.querySelector(".song-modal-spotify iframe").src = "about:blank";
+
+
+    // Return to exactly where we were
+    window.scrollTo(0, previousScrollY);
+
+
+    // Return focus to the song card
+    if (previousFocus) {
+        previousFocus.focus();
+    }
+
+}
+
+
+// Open song when card is clicked
+document.querySelectorAll(".song-card[data-song]").forEach(card => {
+
+    card.addEventListener("click", () => {
+
+        openSong(card.dataset.song, card);
+
+    });
+
+});
+
+
+// Close button
+closeButton.addEventListener("click", closeSong);
+
+
+// Click outside the content
+modal.querySelector(".song-modal-backdrop")
+    .addEventListener("click", closeSong);
+
+
+// Escape key
+document.addEventListener("keydown", event => {
+
+    if (
+        event.key === "Escape" &&
+        modal.classList.contains("is-open")
+    ) {
+
+        closeSong();
+
+    }
+
+});
 </script>
 
 
