@@ -936,6 +936,19 @@ section {
     margin-bottom: 30px;
 }
 
+.artist-photo {
+    margin-top: 55px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.artist-photo img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    object-position: center 45%;
+}
 .artist-pillars {
 
     max-width: 1200px;
