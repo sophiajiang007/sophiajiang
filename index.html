@@ -1891,7 +1891,8 @@ const modalPanel = modal.querySelector(".song-modal-panel");
 const closeButton = modal.querySelector(".song-modal-close");
 const backButton = modal.querySelector(".song-modal-back");
 const homeButton = modal.querySelector(".song-modal-home");
-
+const nextButton = modal.querySelector(".song-modal-next-button");
+    
 let previousScrollY = 0;
 let previousFocus = null;
 
@@ -1912,6 +1913,15 @@ function openSong(songId, trigger) {
     // Header
     modal.querySelector(".song-modal-title").textContent = song.title;
 
+    const nextSong = songs[song.next];
+
+if (nextSong) {
+    modal.querySelector(".song-modal-next-title").textContent = nextSong.title;
+    modal.querySelector(".song-modal-next-track").textContent = nextSong.track;
+    nextButton.style.display = "flex";
+} else {
+    nextButton.style.display = "none";
+}
 
     // Cover
     const cover = modal.querySelector(".song-modal-cover");
