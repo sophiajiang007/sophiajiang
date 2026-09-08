@@ -940,14 +940,30 @@ section {
     margin-top: 55px;
     width: 100%;
     overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .artist-photo img {
     display: block;
-    width: 100%;
+    width: 92%;
     aspect-ratio: 3 / 4;
     object-fit: cover;
     object-position: center 45%;
+
+    /* Fade the edges into the page */
+    -webkit-mask-image: radial-gradient(
+        ellipse at center,
+        black 55%,
+        rgba(0, 0, 0, 0.8) 72%,
+        transparent 100%
+    );
+    mask-image: radial-gradient(
+        ellipse at center,
+        black 55%,
+        rgba(0, 0, 0, 0.8) 72%,
+        transparent 100%
+    );
 }
 .artist-pillars {
 
