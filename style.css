@@ -942,33 +942,28 @@ section {
 
 .artist-photo {
     position: absolute;
-    top: 75px;
+    top: 80px;
     right: 0;
-    width: 48%;
-    height: 650px;
+    width: 42%;
+    height: 570px;
     overflow: hidden;
     z-index: 0;
     pointer-events: none;
-}
 
-.artist-photo::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background:
+    /* Fade the left and bottom edges into the page */
+    -webkit-mask-image:
         linear-gradient(
             to right,
-            #f7f5f0 0%,
-            rgba(247, 245, 240, 0.92) 10%,
-            rgba(247, 245, 240, 0.35) 35%,
-            transparent 58%
-        ),
+            transparent 0%,
+            black 12%,
+            black 100%
+        );
+    mask-image:
         linear-gradient(
-            to bottom,
-            rgba(247, 245, 240, 0.25) 0%,
-            transparent 25%,
-            transparent 78%,
-            #f7f5f0 100%
+            to right,
+            transparent 0%,
+            black 12%,
+            black 100%
         );
 }
 
@@ -977,10 +972,23 @@ section {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: 65% 42%;
-    opacity: 0.68;
+
+    /* Zoom in on you */
+    transform: scale(1.35);
+
+    /* Move the crop toward your face */
+    object-position: 68% 42%;
+
+    opacity: 0.62;
 }
-.artist-grid,
+}
+.artist-grid {
+    display: grid;
+    grid-template-columns: 38% 32%;
+    column-gap: 6%;
+    position: relative;
+    z-index: 2;
+}
 .artist-pillars {
     position: relative;
     z-index: 2;
