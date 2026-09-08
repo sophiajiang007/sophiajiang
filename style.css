@@ -2681,8 +2681,8 @@ body.song-modal-open {
 }
 
 .artist-copy > p:nth-child(2) {
-    grid-row: 2;
-    margin-top: 25px;
+    grid-row: 1;
+    margin-top: 170px;
 }
 
 /* PHOTO sits on the RIGHT */
