@@ -899,16 +899,18 @@ section {
 
     display: grid;
 
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: .85fr 1fr .85fr;
 
-    gap: 100px;
+    gap: 60px;
+
+    align-items: start;
 
     margin-bottom: 100px;
 }
 
 .artist-title h2 {
 
-    font-size: clamp(70px, 8vw, 125px);
+    font-size: clamp(46px, 5.5vw, 84px);
 
     margin-bottom: 20px;
 }
@@ -923,8 +925,6 @@ section {
 }
 
 .artist-photo {
-
-    margin-top: 55px;
 
     width: 100%;
 
@@ -945,18 +945,16 @@ section {
 
 .artist-copy {
 
-    max-width: 620px;
-
-    padding-top: 60px;
+    max-width: 420px;
 }
 
 .artist-copy p {
 
-    font-size: 25px;
+    font-size: 19px;
 
-    line-height: 1.45;
+    line-height: 1.5;
 
-    margin-bottom: 35px;
+    margin-bottom: 28px;
 }
 
 .artist-pillars {
@@ -1681,14 +1679,7 @@ footer {
         gap: 50px;
     }
 
-    .artist-copy {
-
-        padding-top: 0;
-    }
-
     .artist-photo {
-
-        margin-top: 35px;
 
         aspect-ratio: 16 / 10;
     }
