@@ -1160,11 +1160,21 @@
 
             <div class="song-modal-header">
 
-                <span class="song-modal-track"></span>
+    <button
+        class="song-modal-back"
+        type="button"
+    >
+        ← BACK TO ALBUM
+    </button>
 
-                <span>LEMONS &amp; ROSES</span>
+    <button
+        class="song-modal-home"
+        type="button"
+    >
+        LEMONS &amp; ROSES
+    </button>
 
-            </div>
+</div>
 
 
             <!-- Song Title -->
@@ -1493,6 +1503,8 @@ It's your California name`,
 const modal = document.getElementById("song-modal");
 const modalPanel = modal.querySelector(".song-modal-panel");
 const closeButton = modal.querySelector(".song-modal-close");
+const backButton = modal.querySelector(".song-modal-back");
+const homeButton = modal.querySelector(".song-modal-home");
 
 let previousScrollY = 0;
 let previousFocus = null;
@@ -1631,6 +1643,9 @@ document.querySelectorAll(".song-card[data-song]").forEach(card => {
 
 // Close button
 closeButton.addEventListener("click", closeSong);
+
+backButton.addEventListener("click", closeSong);
+homeButton.addEventListener("click", closeSong);
 
 
 // Click outside the content
