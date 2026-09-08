@@ -2631,3 +2631,152 @@ body.song-modal-open {
         padding: 25px;
     }
 } 
+
+/* =========================================
+   ARTIST PROFILE — THREE COLUMN LAYOUT
+   ========================================= */
+
+.artist-section {
+    position: relative;
+    background: #e9e3d8;
+    overflow: hidden;
+}
+
+.artist-grid {
+    display: grid;
+    grid-template-columns: 0.9fr 1.25fr 1fr;
+    column-gap: 70px;
+    align-items: start;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Keep the artist name on the LEFT */
+.artist-title {
+    grid-column: 1;
+    grid-row: 1;
+    padding-top: 0;
+}
+
+.artist-title h2 {
+    margin: 25px 0 20px;
+}
+
+/* Make the contents of artist-copy behave
+   like separate grid items */
+.artist-copy {
+    display: contents;
+}
+
+/* Description sits in the MIDDLE */
+.artist-copy > p {
+    grid-column: 2;
+    max-width: 560px;
+    margin: 0;
+}
+
+.artist-copy > p:first-child {
+    grid-row: 1;
+    margin-top: 0;
+}
+
+.artist-copy > p:nth-child(2) {
+    grid-row: 2;
+    margin-top: 45px;
+}
+
+/* PHOTO sits on the RIGHT */
+.artist-photo {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+
+    position: relative;
+    width: 100%;
+    height: 620px;
+
+    overflow: hidden;
+}
+
+/* Zoom into the photo */
+.artist-photo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: center 65%;
+
+    transform: scale(1.15);
+}
+
+/* =========================================
+   ARTIST PILLARS
+   ========================================= */
+
+.artist-pillars {
+    margin-top: 100px;
+}
+
+
+/* =========================================
+   TABLET
+   ========================================= */
+
+@media (max-width: 1000px) {
+
+    .artist-grid {
+        grid-template-columns: 0.8fr 1.2fr;
+        column-gap: 45px;
+    }
+
+    .artist-title {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .artist-copy > p {
+        grid-column: 2;
+    }
+
+    .artist-photo {
+        grid-column: 2;
+        grid-row: 3;
+        margin-top: 50px;
+        height: 550px;
+    }
+}
+
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 700px) {
+
+    .artist-grid {
+        display: block;
+    }
+
+    .artist-title {
+        margin-bottom: 50px;
+    }
+
+    .artist-copy {
+        display: block;
+    }
+
+    .artist-copy > p {
+        max-width: none;
+        margin-bottom: 35px;
+    }
+
+    .artist-photo {
+        width: 100%;
+        height: 500px;
+        margin-top: 50px;
+    }
+
+    .artist-photo img {
+        transform: scale(1.1);
+    }
+}
