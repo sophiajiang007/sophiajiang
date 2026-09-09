@@ -1720,27 +1720,28 @@ footer {
 .song-modal-home {
     border: 0;
     padding: 0;
-
     background: none;
     color: #151515;
-
     font-family: Inter, sans-serif;
     font-size: 10px;
     font-weight: 600;
     letter-spacing: 0.15em;
-
     cursor: pointer;
-
-    transition: opacity 0.25s ease;
+    transition: opacity 0.25s ease, transform 0.25s ease;
 }
 
 .song-modal-back {
     opacity: 0.6;
 }
 
-.song-modal-back:hover,
+.song-modal-back:hover {
+    opacity: 0.35;
+    transform: translateX(-7px);
+}
+
 .song-modal-home:hover {
     opacity: 0.35;
+    transform: translateX(7px);
 }
 
 .song-modal-home {
