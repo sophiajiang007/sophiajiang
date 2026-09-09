@@ -1195,6 +1195,72 @@ section {
     color: #666;
 }
 
+/* ---------------------------------------------------------
+   TRACTION
+   --------------------------------------------------------- */
+
+.traction-grid {
+
+    max-width: 1200px;
+
+    margin: 80px auto 0;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 1px;
+
+    background: #444;
+}
+
+.traction-card {
+
+    padding: 45px;
+
+    background: #171717;
+
+    text-align: left;
+}
+
+.traction-card span {
+
+    display: block;
+
+    font-size: 10px;
+
+    font-weight: 600;
+
+    letter-spacing: .15em;
+
+    color: #888;
+
+    margin-bottom: 25px;
+}
+
+.traction-card strong {
+
+    display: block;
+
+    font-family: "DM Serif Display", serif;
+
+    font-size: clamp(48px, 6vw, 80px);
+
+    font-weight: 400;
+
+    line-height: .9;
+}
+
+.traction-card p {
+
+    margin-top: 15px;
+
+    margin-bottom: 0;
+
+    color: #999;
+
+    font-size: 13px;
+}
 
 /* =========================================================
    BUSINESS
