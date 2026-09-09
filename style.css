@@ -2616,3 +2616,11 @@ body.song-modal-open {
 .artist-copy {
     padding-top: 0;
 }
+.partner-content p em {
+
+    color: #fff;
+
+    font-family: "DM Serif Display", serif;
+
+    font-style: normal;
+}
