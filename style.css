@@ -2448,4 +2448,10 @@ body.song-modal-open {
     border: none;
     display: block;
 }
+.artist-subtitle {
+    margin-bottom: 30px;
+}
 
+.artist-copy {
+    padding-top: 0;
+}
