@@ -294,6 +294,12 @@ section {
     padding: 140px 7vw;
 }
 
+section[id],
+.social-header[id] {
+
+    scroll-margin-top: 90px;
+}
+
 .section-number {
 
     position: absolute;
@@ -1363,21 +1369,16 @@ section {
 
 .social-section {
 
-    background: #f7f5f0;
+    background: #ece3d3;
+
+    border-top: 1px solid rgba(0,0,0,.08);
 }
 
 .social-header {
 
-    max-width: 850px;
+    max-width: 1200px;
 
-    margin: 0 auto 80px;
-
-    text-align: center;
-}
-
-.social-header {
-
-    margin-top: 100px;
+    margin: 0 auto 75px;
 
     padding-top: 60px;
 
@@ -1485,11 +1486,11 @@ section {
 
     text-align: center;
 
-    background: #181818;
+    background: #1b1b22;
 
     color: #f7f5f0;
    
-    border-top: 1px solid rgba(255,255,255,.08);
+    border-top: 1px solid rgba(255,255,255,.1);
 }
 
 .partner-content {
