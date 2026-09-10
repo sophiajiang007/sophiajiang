@@ -380,6 +380,7 @@ section {
 .pitch {
 
     background: #f7f5f0;
+    border-top: 1px solid rgba(0,0,0,.08);
 }
 
 .pitch-grid {
@@ -1487,6 +1488,8 @@ section {
     background: #181818;
 
     color: #f7f5f0;
+   
+    border-top: 1px solid rgba(255,255,255,.08);
 }
 
 .partner-content {
