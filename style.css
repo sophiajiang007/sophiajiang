@@ -385,7 +385,7 @@ section[id],
 
 .pitch {
 
-    background: #f0e8d8;
+    background: #f2e6e2;
     border-top: 1px solid rgba(0,0,0,.08);
 }
 
@@ -1006,7 +1006,7 @@ section[id],
 
 .audience-section {
 
-    background: #f7f5f0;
+    background: #f0ece5;
 }
 
 .audience-header {
@@ -1111,7 +1111,7 @@ section[id],
 
 .engine-section {
 
-    background: #171717;
+    background: #20241d;
 
     color: #f7f5f0;
 
@@ -1369,7 +1369,7 @@ section[id],
 
 .social-section {
 
-    background: #ece3d3;
+    background: #e6d4d2;
 
     border-top: 1px solid rgba(0,0,0,.08);
 }
@@ -1486,7 +1486,7 @@ section[id],
 
     text-align: center;
 
-    background: #2b211c;
+    background: #4a2c33;
 
     color: #f7f5f0;
    
@@ -1564,7 +1564,7 @@ footer {
 
     padding: 60px 7vw;
 
-    background: #111;
+    background: #1c1418;
 
     color: white;
 
