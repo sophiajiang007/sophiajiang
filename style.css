@@ -1374,6 +1374,16 @@ section {
     text-align: center;
 }
 
+.social-header {
+
+    margin-top: 100px;
+
+    padding-top: 60px;
+
+    border-top: 1px solid rgba(0,0,0,.12);
+
+}
+
 .social-header h2 {
 
     font-size: clamp(65px, 8vw, 115px);
