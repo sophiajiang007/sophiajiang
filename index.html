@@ -1346,7 +1346,9 @@ On the lemons and roses`,
         daw: "images/cali-daw.png",
 
         spotify: "https://open.spotify.com/embed/track/14m9VfKQh3mEElySDSW53L?utm_source=generator",
-
+       
+        tutorial: "https://www.youtube.com/embed/hogQzt4IIKE",
+        
         lyrics: `Hey
 What’s your name?
 I wanna know you for the rest of my days
@@ -1514,6 +1516,17 @@ if (nextSong) {
     daw.src = song.daw;
     daw.alt = `${song.title} Ableton session`;
 
+    // Tutorial video
+    const tutorial = modal.querySelector(".song-modal-tutorial");
+    const tutorialIframe = modal.querySelector(".song-modal-tutorial iframe");
+    
+    if (song.tutorial) {
+        tutorial.style.display = "block";
+        tutorialIframe.src = song.tutorial;
+    } else {
+        tutorial.style.display = "none";
+        tutorialIframe.src = "about:blank";
+    }
 
     // Background story
     const story = modal.querySelector(".song-modal-story");
@@ -1558,8 +1571,9 @@ function closeSong() {
     document.body.classList.remove("song-modal-open");
 
 
-    // Stop Spotify when closing
+    // Stop media when closing
     modal.querySelector(".song-modal-spotify iframe").src = "about:blank";
+    modal.querySelector(".song-modal-tutorial iframe").src = "about:blank";
 
 
     // Return to exactly where we were
